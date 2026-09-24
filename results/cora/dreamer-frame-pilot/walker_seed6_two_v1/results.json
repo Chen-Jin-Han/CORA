@@ -1,0 +1,153 @@
+{
+  "task": "walker_walk",
+  "restoration_seed": 6,
+  "trajectory_seed": 860000,
+  "kinds": [
+    "gaussian_noise",
+    "motion_blur"
+  ],
+  "scales": {
+    "value_std": 6.41126823425293,
+    "h_rms_std": 0.1400981341061649,
+    "calibration_frames": 100,
+    "evaluation_frames": 400,
+    "epsilon": 1e-06
+  },
+  "posterior_samples": 4,
+  "statistics": {
+    "gaussian_noise": {
+      "raw": {
+        "actor_symmetric_kl": {
+          "mean": 0.20744087144648812,
+          "p95": 0.7377913670526726
+        },
+        "value_normalized_mae": {
+          "mean": 0.020860113203525543,
+          "p95": 0.03899741526693103
+        },
+        "posterior_js": {
+          "mean": 0.16809428170743004,
+          "p95": 0.25998381751875804
+        },
+        "hnext_normalized_rmse": {
+          "mean": 0.1618150637631758,
+          "p95": 0.22734470749023722
+        }
+      },
+      "aco": {
+        "actor_symmetric_kl": {
+          "mean": 0.41948274173704947,
+          "p95": 1.937636067625163,
+          "reduction_percent": -102.21798086943542
+        },
+        "value_normalized_mae": {
+          "mean": 0.0258795116096735,
+          "p95": 0.055461032874882216,
+          "reduction_percent": -24.062182008195595
+        },
+        "posterior_js": {
+          "mean": 0.4286538893607124,
+          "p95": 0.5339472511708881,
+          "reduction_percent": -155.0080139589693
+        },
+        "hnext_normalized_rmse": {
+          "mean": 0.29172899909338146,
+          "p95": 0.3864798250135229,
+          "reduction_percent": -80.28543963023182
+        }
+      },
+      "smfa": {
+        "actor_symmetric_kl": {
+          "mean": 0.045678808587036955,
+          "p95": 0.15973680704451435,
+          "reduction_percent": 77.97984154785026
+        },
+        "value_normalized_mae": {
+          "mean": 0.016135893762111664,
+          "p95": 0.0275584427639842,
+          "reduction_percent": 22.64714191778904
+        },
+        "posterior_js": {
+          "mean": 0.023561593185770825,
+          "p95": 0.05685786552090128,
+          "reduction_percent": 85.98310843983376
+        },
+        "hnext_normalized_rmse": {
+          "mean": 0.06905429503795507,
+          "p95": 0.11559002962257366,
+          "reduction_percent": 57.3251751524077
+        }
+      }
+    },
+    "motion_blur": {
+      "raw": {
+        "actor_symmetric_kl": {
+          "mean": 0.35524208769207166,
+          "p95": 1.5151318579218753
+        },
+        "value_normalized_mae": {
+          "mean": 0.021603547036647797,
+          "p95": 0.04199145101010799
+        },
+        "posterior_js": {
+          "mean": 0.3148535155220904,
+          "p95": 0.48125814248285215
+        },
+        "hnext_normalized_rmse": {
+          "mean": 0.24596185676706686,
+          "p95": 0.3579907762998929
+        }
+      },
+      "aco": {
+        "actor_symmetric_kl": {
+          "mean": 0.3311959579771709,
+          "p95": 1.6255360934113627,
+          "reduction_percent": 6.768941673303155
+        },
+        "value_normalized_mae": {
+          "mean": 0.021013302728533745,
+          "p95": 0.03794069699943062,
+          "reduction_percent": 2.732163876204097
+        },
+        "posterior_js": {
+          "mean": 0.23687027243632378,
+          "p95": 0.33129246229239523,
+          "reduction_percent": 24.768103019734347
+        },
+        "hnext_normalized_rmse": {
+          "mean": 0.20563597870675066,
+          "p95": 0.2813008816529246,
+          "reduction_percent": 16.395175491989395
+        }
+      },
+      "smfa": {
+        "actor_symmetric_kl": {
+          "mean": 0.31225448003967615,
+          "p95": 1.1871526937874421,
+          "reduction_percent": 12.10093317818178
+        },
+        "value_normalized_mae": {
+          "mean": 0.02032148279249668,
+          "p95": 0.035603065229952324,
+          "reduction_percent": 5.934508078586581
+        },
+        "posterior_js": {
+          "mean": 0.28373137177667085,
+          "p95": 0.47067688387437545,
+          "reduction_percent": 9.88464228954623
+        },
+        "hnext_normalized_rmse": {
+          "mean": 0.23130441311712707,
+          "p95": 0.34296970811193916,
+          "reduction_percent": 5.95923442870283
+        }
+      }
+    }
+  },
+  "seconds": 23.292183812707663,
+  "notes": [
+    "One trajectory; first100 calibration, last400 evaluation. No statistical significance claim.",
+    "Actor KL is per-action-dimension symmetric KL of pre-clipping Normal policies, averaged over four common-random posterior draws.",
+    "Fixed clean action for hnext; no extra environment step or history contamination."
+  ]
+}

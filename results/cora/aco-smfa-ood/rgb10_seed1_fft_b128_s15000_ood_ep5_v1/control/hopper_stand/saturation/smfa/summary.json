@@ -1,0 +1,67 @@
+{
+  "n": 5,
+  "mean": 716.0967268824577,
+  "std": 400.37725355030574,
+  "episodes": [
+    {
+      "task": "hopper_stand",
+      "condition": "smfa",
+      "kind": "saturation",
+      "seed": 403000,
+      "return_": 886.7307271957397,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 58.94077891577035,
+      "adapter_seconds_mean": 0.08506300200428814,
+      "terminal": true
+    },
+    {
+      "task": "hopper_stand",
+      "condition": "smfa",
+      "kind": "saturation",
+      "seed": 403001,
+      "return_": 898.2217221856117,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 58.266547126695514,
+      "adapter_seconds_mean": 0.08630239185784012,
+      "terminal": true
+    },
+    {
+      "task": "hopper_stand",
+      "condition": "smfa",
+      "kind": "saturation",
+      "seed": 403002,
+      "return_": 905.5318313837051,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 56.34101352561265,
+      "adapter_seconds_mean": 0.08299327295925468,
+      "terminal": true
+    },
+    {
+      "task": "hopper_stand",
+      "condition": "smfa",
+      "kind": "saturation",
+      "seed": 403003,
+      "return_": 889.999353647232,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 55.67881549987942,
+      "adapter_seconds_mean": 0.0821006756722927,
+      "terminal": true
+    },
+    {
+      "task": "hopper_stand",
+      "condition": "smfa",
+      "kind": "saturation",
+      "seed": 403004,
+      "return_": 0.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 55.12534051667899,
+      "adapter_seconds_mean": 0.08119813659880311,
+      "terminal": true
+    }
+  ]
+}

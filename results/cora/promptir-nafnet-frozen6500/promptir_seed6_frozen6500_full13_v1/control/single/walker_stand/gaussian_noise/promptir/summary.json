@@ -1,0 +1,77 @@
+{
+  "n": 5,
+  "mean": 959.138246204704,
+  "std": 30.72217427009948,
+  "episodes": [
+    {
+      "task": "walker_stand",
+      "condition": "promptir",
+      "mode": "single",
+      "kind": "gaussian_noise",
+      "corruption_seed": 10402000,
+      "seed": 402000,
+      "return_": 905.7681683264673,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 629.7694961531088,
+      "adapter_seconds_mean": 1.174455384882167,
+      "terminal": true
+    },
+    {
+      "task": "walker_stand",
+      "condition": "promptir",
+      "mode": "single",
+      "kind": "gaussian_noise",
+      "corruption_seed": 10402001,
+      "seed": 402001,
+      "return_": 984.2248594537377,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 639.9606688050553,
+      "adapter_seconds_mean": 1.2016435129083693,
+      "terminal": true
+    },
+    {
+      "task": "walker_stand",
+      "condition": "promptir",
+      "mode": "single",
+      "kind": "gaussian_noise",
+      "corruption_seed": 10402002,
+      "seed": 402002,
+      "return_": 968.3850265145302,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 602.0713837938383,
+      "adapter_seconds_mean": 1.1226441076248883,
+      "terminal": true
+    },
+    {
+      "task": "walker_stand",
+      "condition": "promptir",
+      "mode": "single",
+      "kind": "gaussian_noise",
+      "corruption_seed": 10402003,
+      "seed": 402003,
+      "return_": 972.5938443541527,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 597.7436041207984,
+      "adapter_seconds_mean": 1.1165702806301414,
+      "terminal": true
+    },
+    {
+      "task": "walker_stand",
+      "condition": "promptir",
+      "mode": "single",
+      "kind": "gaussian_noise",
+      "corruption_seed": 10402004,
+      "seed": 402004,
+      "return_": 964.7193323746324,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 605.8189988816157,
+      "adapter_seconds_mean": 1.1334608605876566,
+      "terminal": true
+    }
+  ]
+}

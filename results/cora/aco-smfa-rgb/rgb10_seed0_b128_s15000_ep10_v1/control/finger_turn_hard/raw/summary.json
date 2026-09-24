@@ -1,0 +1,117 @@
+{
+  "n": 10,
+  "mean": 409.5,
+  "std": 431.39161120984056,
+  "episodes": [
+    {
+      "task": "finger_turn_hard",
+      "condition": "raw",
+      "seed": 405000,
+      "return_": 746.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 17.95880603697151,
+      "adapter_seconds_mean": 0.0,
+      "terminal": true
+    },
+    {
+      "task": "finger_turn_hard",
+      "condition": "raw",
+      "seed": 405001,
+      "return_": 673.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 18.516056859865785,
+      "adapter_seconds_mean": 0.0,
+      "terminal": true
+    },
+    {
+      "task": "finger_turn_hard",
+      "condition": "raw",
+      "seed": 405002,
+      "return_": 6.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 18.37326312996447,
+      "adapter_seconds_mean": 0.0,
+      "terminal": true
+    },
+    {
+      "task": "finger_turn_hard",
+      "condition": "raw",
+      "seed": 405003,
+      "return_": 24.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 18.89195887092501,
+      "adapter_seconds_mean": 0.0,
+      "terminal": true
+    },
+    {
+      "task": "finger_turn_hard",
+      "condition": "raw",
+      "seed": 405004,
+      "return_": 0.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 17.63954558596015,
+      "adapter_seconds_mean": 0.0,
+      "terminal": true
+    },
+    {
+      "task": "finger_turn_hard",
+      "condition": "raw",
+      "seed": 405005,
+      "return_": 817.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 17.42791507812217,
+      "adapter_seconds_mean": 0.0,
+      "terminal": true
+    },
+    {
+      "task": "finger_turn_hard",
+      "condition": "raw",
+      "seed": 405006,
+      "return_": 886.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 18.700504932086915,
+      "adapter_seconds_mean": 0.0,
+      "terminal": true
+    },
+    {
+      "task": "finger_turn_hard",
+      "condition": "raw",
+      "seed": 405007,
+      "return_": 0.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 18.467392940074205,
+      "adapter_seconds_mean": 0.0,
+      "terminal": true
+    },
+    {
+      "task": "finger_turn_hard",
+      "condition": "raw",
+      "seed": 405008,
+      "return_": 943.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 18.274736052844673,
+      "adapter_seconds_mean": 0.0,
+      "terminal": true
+    },
+    {
+      "task": "finger_turn_hard",
+      "condition": "raw",
+      "seed": 405009,
+      "return_": 0.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 18.096019443124533,
+      "adapter_seconds_mean": 0.0,
+      "terminal": true
+    }
+  ]
+}

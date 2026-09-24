@@ -1,0 +1,67 @@
+{
+  "n": 5,
+  "mean": 739.6,
+  "std": 53.28508234018223,
+  "episodes": [
+    {
+      "task": "cartpole_swingup_sparse",
+      "condition": "aco",
+      "kind": "frost",
+      "seed": 406000,
+      "return_": 707.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 21.882241401821375,
+      "adapter_seconds_mean": 0.011349960191175342,
+      "terminal": true
+    },
+    {
+      "task": "cartpole_swingup_sparse",
+      "condition": "aco",
+      "kind": "frost",
+      "seed": 406001,
+      "return_": 686.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 20.09082727599889,
+      "adapter_seconds_mean": 0.011035598582588136,
+      "terminal": true
+    },
+    {
+      "task": "cartpole_swingup_sparse",
+      "condition": "aco",
+      "kind": "frost",
+      "seed": 406002,
+      "return_": 732.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 20.61642254702747,
+      "adapter_seconds_mean": 0.011281431838870048,
+      "terminal": true
+    },
+    {
+      "task": "cartpole_swingup_sparse",
+      "condition": "aco",
+      "kind": "frost",
+      "seed": 406003,
+      "return_": 825.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 20.728488220833242,
+      "adapter_seconds_mean": 0.011281138251535594,
+      "terminal": true
+    },
+    {
+      "task": "cartpole_swingup_sparse",
+      "condition": "aco",
+      "kind": "frost",
+      "seed": 406004,
+      "return_": 748.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 20.256035110913217,
+      "adapter_seconds_mean": 0.010872446837835014,
+      "terminal": true
+    }
+  ]
+}

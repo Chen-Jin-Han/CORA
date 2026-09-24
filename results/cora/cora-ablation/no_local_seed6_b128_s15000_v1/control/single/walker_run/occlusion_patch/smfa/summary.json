@@ -1,0 +1,77 @@
+{
+  "n": 5,
+  "mean": 243.1451815274544,
+  "std": 85.20374528612899,
+  "episodes": [
+    {
+      "task": "walker_run",
+      "condition": "smfa",
+      "mode": "single",
+      "kind": "occlusion_patch",
+      "corruption_seed": 10401000,
+      "seed": 401000,
+      "return_": 163.2931646821089,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 62.198583473451436,
+      "adapter_seconds_mean": 0.08811488046310842,
+      "terminal": true
+    },
+    {
+      "task": "walker_run",
+      "condition": "smfa",
+      "mode": "single",
+      "kind": "occlusion_patch",
+      "corruption_seed": 10401001,
+      "seed": 401001,
+      "return_": 341.86356810387224,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 60.75813394226134,
+      "adapter_seconds_mean": 0.08683525932952761,
+      "terminal": true
+    },
+    {
+      "task": "walker_run",
+      "condition": "smfa",
+      "mode": "single",
+      "kind": "occlusion_patch",
+      "corruption_seed": 10401002,
+      "seed": 401002,
+      "return_": 235.4526120526716,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 61.033429611474276,
+      "adapter_seconds_mean": 0.08670117539353668,
+      "terminal": true
+    },
+    {
+      "task": "walker_run",
+      "condition": "smfa",
+      "mode": "single",
+      "kind": "occlusion_patch",
+      "corruption_seed": 10401003,
+      "seed": 401003,
+      "return_": 157.57251432351768,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 63.45103636756539,
+      "adapter_seconds_mean": 0.08999368900991976,
+      "terminal": true
+    },
+    {
+      "task": "walker_run",
+      "condition": "smfa",
+      "mode": "single",
+      "kind": "occlusion_patch",
+      "corruption_seed": 10401004,
+      "seed": 401004,
+      "return_": 317.5440484751016,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 65.46203202102333,
+      "adapter_seconds_mean": 0.09455174678377808,
+      "terminal": true
+    }
+  ]
+}

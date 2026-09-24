@@ -1,0 +1,67 @@
+{
+  "n": 5,
+  "mean": 7.6,
+  "std": 16.994116628998402,
+  "episodes": [
+    {
+      "task": "reacher_hard",
+      "condition": "raw",
+      "kind": "shot_noise",
+      "seed": 409000,
+      "return_": 38.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 18.06262109708041,
+      "adapter_seconds_mean": 0.0,
+      "terminal": true
+    },
+    {
+      "task": "reacher_hard",
+      "condition": "raw",
+      "kind": "shot_noise",
+      "seed": 409001,
+      "return_": 0.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 16.468378878198564,
+      "adapter_seconds_mean": 0.0,
+      "terminal": true
+    },
+    {
+      "task": "reacher_hard",
+      "condition": "raw",
+      "kind": "shot_noise",
+      "seed": 409002,
+      "return_": 0.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 16.372213850729167,
+      "adapter_seconds_mean": 0.0,
+      "terminal": true
+    },
+    {
+      "task": "reacher_hard",
+      "condition": "raw",
+      "kind": "shot_noise",
+      "seed": 409003,
+      "return_": 0.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 15.982222678139806,
+      "adapter_seconds_mean": 0.0,
+      "terminal": true
+    },
+    {
+      "task": "reacher_hard",
+      "condition": "raw",
+      "kind": "shot_noise",
+      "seed": 409004,
+      "return_": 0.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 16.518181194085628,
+      "adapter_seconds_mean": 0.0,
+      "terminal": true
+    }
+  ]
+}

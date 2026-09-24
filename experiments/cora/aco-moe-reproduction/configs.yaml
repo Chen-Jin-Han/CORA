@@ -1,0 +1,366 @@
+defaults:
+
+  logdir: null
+  traindir: null
+  evaldir: null
+  offline_traindir: ''
+  offline_evaldir: ''
+  seed: 0
+  deterministic_run: False
+  steps: 1e6
+  parallel: False
+  eval_every: 1e4
+  eval_episode_num: 10
+  eval_only: False
+  policy_checkpoint: ''
+  log_every: 1e4
+  reset_every: 0
+  device: 'cuda:0'
+  compile: True
+  precision: 32
+  debug: False
+  video_pred_log: True
+  save_best: True
+  use_wandb: False
+  wandb_entity: ''
+  wandb_project: ''
+
+  # Environment
+  task: 'dmc_walker_walk'
+  size: [64, 64]
+  envs: 1
+  action_repeat: 2
+  time_limit: 1000
+  grayscale: False
+  agent_only_pixels: False
+  agent_only_bg_color: [0, 0, 0]
+  agent_only_body: null
+  agent_only_extra_sites: null
+  agent_only_extra_geoms: null
+  agent_only_keep_target_sites: True
+  agent_only_keep_target_geoms: True
+  agent_only_strict: False
+  prefill: 2500
+  reward_EMA: True
+  camera_names: ['corner']
+  camera_rotations: null
+
+  # RoboSuite (kept for completeness; not exercised by the default flow).
+  robosuite_robots: 'Panda'
+  robosuite_gripper_types: 'default'
+  robosuite_controller: 'OSC_POSE'
+  robosuite_reward_shaping: True
+  robosuite_control_freq: 20
+  robosuite_horizon: null
+  robosuite_camera_segmentations: null
+  robosuite_video_background: False
+  robosuite_video_background_train: False
+  robosuite_video_background_eval: False
+  robosuite_background_path: null
+  robosuite_background_videos: 'train'
+  robosuite_background_num_videos: null
+  robosuite_background_dynamic: True
+  robosuite_background_update_every: 2
+  robosuite_background_alpha: 1.0
+  robosuite_background_mask_mode: 'segmentation'
+  robosuite_background_key_color: [0, 0, 0]
+  robosuite_background_key_tolerance: 0
+  robosuite_background_mask_geoms: null
+
+  # Distracting Control Suite (DCS) settings.
+  dcs_difficulty: 'easy'
+  dcs_intensity: null
+  dcs_dynamic: True
+  dcs_background_path: null
+  dcs_background_videos: 'train'
+  dcs_distraction_types: null
+
+  # DMC-GB settings.
+  dmcgb_mode: 'train'
+  dmcgb_mode_train: 'train'
+  dmcgb_mode_eval: 'train'
+  dmcgb_background_path: null
+  dmcgb_background_videos: 'train'
+  dmcgb_dynamic: True
+  dmcgb_video_alpha: 1.0
+  dmcgb_video_update_every: 2
+  dmcgb_num_videos_easy: 10
+  dmcgb_num_videos_hard: 100
+  dmcgb_color_mode: 'random_walk'
+  dmcgb_color_palette_root: null
+  davis_path: null
+  davis_split: 'train'
+
+  # VDCS settings.
+  vdcs_enabled: False
+  vdcs_base_env: 'dmc'
+  vdcs_degradation_type: null
+  vdcs_degradation_preset: null
+  vdcs_degradation_configs: null
+  vdcs_intensity: 0.5
+  vdcs_composition_mode: 'sequential'
+  vdcs_mode: null
+  vdcs_composition_probability: 1.0
+  vdcs_intensity_jitter: 0.1
+  vdcs_markov_stay_prob: 0.95
+
+  # World model.
+  dyn_hidden: 512
+  dyn_deter: 512
+  dyn_stoch: 32
+  dyn_discrete: 32
+  dyn_rec_depth: 1
+  dyn_mean_act: 'none'
+  dyn_std_act: 'sigmoid2'
+  dyn_min_std: 0.1
+  grad_heads: ['decoder', 'reward', 'cont']
+  units: 512
+  act: 'SiLU'
+  norm: True
+  encoder:
+    {mlp_keys: '$^', cnn_keys: 'image', act: 'SiLU', norm: True, cnn_depth: 32, kernel_size: 4, minres: 4, mlp_layers: 5, mlp_units: 1024, symlog_inputs: True}
+  decoder:
+    {mlp_keys: '$^', cnn_keys: 'image', act: 'SiLU', norm: True, cnn_depth: 32, kernel_size: 4, minres: 4, mlp_layers: 5, mlp_units: 1024, cnn_sigmoid: False, image_dist: mse, vector_dist: symlog_mse, outscale: 1.0}
+  actor:
+    {layers: 2, dist: 'normal', entropy: 3e-4, unimix_ratio: 0.01, std: 'learned', min_std: 0.1, max_std: 1.0, temp: 0.1, lr: 3e-5, eps: 1e-5, grad_clip: 100.0, outscale: 1.0}
+  critic:
+    {layers: 2, dist: 'symlog_disc', slow_target: True, slow_target_update: 1, slow_target_fraction: 0.02, lr: 3e-5, eps: 1e-5, grad_clip: 100.0, outscale: 0.0}
+  reward_head:
+    {layers: 2, dist: 'symlog_disc', loss_scale: 1.0, outscale: 0.0}
+  cont_head:
+    {layers: 2, loss_scale: 1.0, outscale: 1.0}
+  dyn_scale: 0.5
+  rep_scale: 0.1
+  kl_free: 1.0
+  weight_decay: 0.0
+  unimix_ratio: 0.01
+  initial: 'learned'
+
+  # Legacy / unused flags. Kept so config schema stays consistent.
+  use_dib_wm: False
+  use_moe_restore: False
+  moe_router_checkpoint: null
+  moe_router_hidden: 256
+  moe_weighted_restoration: False
+  moe_restore_enabled: True
+  moe_force_expert_mapping: null
+  use_single_unet_restore: False
+  single_unet_checkpoint: null
+  single_unet_restore_enabled: True
+
+  # ACO-MoE adapter (dual-stream MoE U-Net).
+  use_dual_stream_unet_restore: False
+  dual_stream_unet_checkpoint: null
+  unet_checkpoint: null
+  dual_stream_unet_apply: 'agent_only_rgb_hard'
+  dual_stream_unet_tasks: []
+  dual_stream_unet_on_cpu: False
+  dual_stream_unet_restore_enabled: True
+  dual_stream_unet_base_channels: 0
+  dual_stream_unet_router_hidden: 0
+
+  content_dim: 48
+  degradation_dim: 16
+  bottleneck_hidden: 512
+  num_experts: 7
+  use_pretrained_experts: True
+  expert_checkpoint_root: null
+  freeze_experts: True
+  use_weighted_restoration: True
+  use_restored_feat: True
+  expert_blocks: 4
+  expert_hidden: 256
+  router_hidden: 64
+  hsic_sigma: 'median'
+  lambda_hsic: 0.1
+  hsic_warmup_steps: 100000
+  lambda_route: 1.0
+  lambda_balance: 0.01
+
+  # Training.
+  batch_size: 32
+  batch_length: 64
+  train_ratio: 512
+  pretrain: 100
+  model_lr: 1e-4
+  opt_eps: 1e-8
+  grad_clip: 1000
+  dataset_size: 1000000
+  opt: 'adam'
+
+  # Behavior.
+  discount: 0.997
+  discount_lambda: 0.95
+  imag_horizon: 15
+  imag_gradient: 'dynamics'
+  imag_gradient_mix: 0.0
+  eval_state_mean: False
+
+  # Exploration.
+  expl_behavior: 'greedy'
+  expl_until: 0
+  expl_extr_scale: 0.0
+  expl_intr_scale: 1.0
+  disag_target: 'stoch'
+  disag_log: True
+  disag_models: 10
+  disag_offset: 1
+  disag_layers: 4
+  disag_units: 400
+  disag_action_cond: False
+
+
+# --- Clean DMC training (vanilla DreamerV3 backbone). ---
+dmc_vision:
+  steps: 1e6
+  action_repeat: 2
+  envs: 4
+  train_ratio: 512
+  video_pred_log: true
+  encoder: {mlp_keys: '$^', cnn_keys: 'image'}
+  decoder: {mlp_keys: '$^', cnn_keys: 'image'}
+
+
+# --- VDCS evaluation: Markov-temporal corruption stream + ACO-MoE adapter. ---
+adapt_vdcs_markov_temporal:
+  use_dual_stream_unet_restore: true
+  dual_stream_unet_checkpoint: 'checkpoints/aco_moe/moe_unet_best.pth'
+  dual_stream_unet_apply: 'agent_only_rgb_hard'
+  video_pred_log: false
+
+  vdcs_enabled: True
+  vdcs_degradation_configs: [
+    {'name': 'rain',           'intensity': 0.6},
+    {'name': 'fog',            'intensity': 0.6},
+    {'name': 'snow',           'intensity': 0.6},
+    {'name': 'motion_blur',    'intensity': 0.35},
+    {'name': 'gaussian_noise', 'intensity': 0.5},
+    {'name': 'low_light',      'intensity': 0.7},
+    {'name': 'jpeg',           'intensity': 0.7},
+  ]
+  vdcs_composition_mode: 'markov_temporal'
+  vdcs_intensity_jitter: 0.1
+  vdcs_markov_stay_prob: 0.95
+
+
+# --- DMC-GB color_hard evaluation + ACO-MoE adapter. ---
+adapt_dmcgb_color_hard:
+  use_dual_stream_unet_restore: true
+  dual_stream_unet_checkpoint: 'checkpoints/aco_moe/moe_unet_best.pth'
+  dual_stream_unet_apply: 'agent_only_rgb_hard'
+  video_pred_log: false
+
+  task: 'dmcgb_walker_walk'
+  dmcgb_mode_train: 'color_hard'
+  dmcgb_mode_eval: 'color_hard'
+
+
+# --- DMC-GB video_hard evaluation + ACO-MoE adapter. ---
+adapt_dmcgb_video_hard:
+  use_dual_stream_unet_restore: true
+  dual_stream_unet_checkpoint: 'checkpoints/aco_moe/moe_unet_best.pth'
+  dual_stream_unet_apply: 'agent_only_rgb_hard'
+  video_pred_log: false
+
+  task: 'dmcgb_walker_walk'
+  dmcgb_mode_train: 'video_hard'
+  dmcgb_mode_eval: 'video_hard'
+  dmcgb_background_path: null   # set via --dmcgb_background_path /path/to/DAVIS
+  dmcgb_background_videos: 'all'
+
+
+# Paper-oriented reproduction profiles. These are kept separate from the
+# upstream defaults so quick-start behavior remains unchanged.
+paper_dmc_vision:
+  size: [84, 84]
+  steps: 1e6
+  action_repeat: 2
+  envs: 1
+  batch_size: 16
+  batch_length: 64
+  dyn_deter: 1024
+  dyn_hidden: 512
+  dyn_stoch: 32
+  dyn_discrete: 32
+  train_ratio: 512
+  eval_episode_num: 10
+  encoder: {mlp_keys: '$^', cnn_keys: 'image'}
+  decoder: {mlp_keys: '$^', cnn_keys: 'image'}
+
+paper_vdcs_markov:
+  vdcs_enabled: True
+  vdcs_degradation_configs: [
+    {'name': 'rain',           'intensity': 0.6},
+    {'name': 'fog',            'intensity': 0.6},
+    {'name': 'snow',           'intensity': 0.6},
+    {'name': 'motion_blur',    'intensity': 0.35},
+    {'name': 'gaussian_noise', 'intensity': 0.5},
+    {'name': 'low_light',      'intensity': 0.7},
+    {'name': 'jpeg',           'intensity': 0.7},
+  ]
+  vdcs_composition_mode: 'markov_temporal'
+  vdcs_intensity_jitter: 0.1
+  vdcs_markov_stay_prob: 0.8
+  video_pred_log: False
+
+paper_vdcs_static:
+  vdcs_enabled: True
+  vdcs_degradation_type: 'rain'
+  vdcs_composition_mode: 'sequential'
+  vdcs_intensity_jitter: 0.0
+  video_pred_log: False
+
+paper_aco:
+  use_dual_stream_unet_restore: True
+  dual_stream_unet_checkpoint: 'checkpoints/reproduction/full/seed_0/moe_unet_best.pth'
+  dual_stream_unet_apply: 'agent_only_rgb_hard'
+  dual_stream_unet_restore_enabled: True
+  video_pred_log: False
+
+paper_agent_oracle:
+  agent_only_pixels: True
+  agent_only_bg_color: [0, 0, 0]
+  agent_only_strict: True
+  video_pred_log: False
+
+paper_dmcgb_color_hard:
+  task: 'dmcgb_walker_walk'
+  dmcgb_mode_train: 'color_hard'
+  dmcgb_mode_eval: 'color_hard'
+  video_pred_log: False
+
+paper_dmcgb_video_hard:
+  task: 'dmcgb_walker_walk'
+  dmcgb_mode_train: 'video_hard'
+  dmcgb_mode_eval: 'video_hard'
+  dmcgb_background_videos: 'all'
+  video_pred_log: False
+
+
+local_initial:
+  # Pipeline validation only. These settings are not the paper protocol.
+  compile: False
+  batch_size: 4
+  batch_length: 32
+  train_ratio: 16
+  pretrain: 1
+  prefill: 100
+  steps: 600
+  eval_every: 200
+  log_every: 100
+  eval_episode_num: 1
+  time_limit: 200
+  dataset_size: 5000
+  video_pred_log: False
+  envs: 1
+
+debug:
+  debug: True
+  pretrain: 1
+  prefill: 1
+  batch_size: 10
+  batch_length: 20
+  steps: 1000
+  eval_every: 200
+  log_every: 100
+  envs: 1

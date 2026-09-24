@@ -1,0 +1,77 @@
+{
+  "n": 5,
+  "mean": 2.097714591026306,
+  "std": 4.69063242292799,
+  "episodes": [
+    {
+      "task": "hopper_stand",
+      "condition": "aco",
+      "mode": "single",
+      "kind": "low_light",
+      "corruption_seed": 10403000,
+      "seed": 403000,
+      "return_": 0.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 25.312359905801713,
+      "adapter_seconds_mean": 0.011971108797937632,
+      "terminal": true
+    },
+    {
+      "task": "hopper_stand",
+      "condition": "aco",
+      "mode": "single",
+      "kind": "low_light",
+      "corruption_seed": 10403001,
+      "seed": 403001,
+      "return_": 10.48857295513153,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 23.006714100018144,
+      "adapter_seconds_mean": 0.011891794333234429,
+      "terminal": true
+    },
+    {
+      "task": "hopper_stand",
+      "condition": "aco",
+      "mode": "single",
+      "kind": "low_light",
+      "corruption_seed": 10403002,
+      "seed": 403002,
+      "return_": 0.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 23.025556354783475,
+      "adapter_seconds_mean": 0.011627581723034382,
+      "terminal": true
+    },
+    {
+      "task": "hopper_stand",
+      "condition": "aco",
+      "mode": "single",
+      "kind": "low_light",
+      "corruption_seed": 10403003,
+      "seed": 403003,
+      "return_": 0.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 23.42350826598704,
+      "adapter_seconds_mean": 0.012115360911935567,
+      "terminal": true
+    },
+    {
+      "task": "hopper_stand",
+      "condition": "aco",
+      "mode": "single",
+      "kind": "low_light",
+      "corruption_seed": 10403004,
+      "seed": 403004,
+      "return_": 0.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 23.472612181678414,
+      "adapter_seconds_mean": 0.012259968800470233,
+      "terminal": true
+    }
+  ]
+}

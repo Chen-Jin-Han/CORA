@@ -1,0 +1,77 @@
+{
+  "n": 5,
+  "mean": 7.4,
+  "std": 16.546903033498445,
+  "episodes": [
+    {
+      "task": "reacher_hard",
+      "condition": "raw",
+      "mode": "single",
+      "kind": "fog",
+      "corruption_seed": 10409000,
+      "seed": 409000,
+      "return_": 37.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 18.700214557349682,
+      "adapter_seconds_mean": 0.0,
+      "terminal": true
+    },
+    {
+      "task": "reacher_hard",
+      "condition": "raw",
+      "mode": "single",
+      "kind": "fog",
+      "corruption_seed": 10409001,
+      "seed": 409001,
+      "return_": 0.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 17.047464258037508,
+      "adapter_seconds_mean": 0.0,
+      "terminal": true
+    },
+    {
+      "task": "reacher_hard",
+      "condition": "raw",
+      "mode": "single",
+      "kind": "fog",
+      "corruption_seed": 10409002,
+      "seed": 409002,
+      "return_": 0.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 16.448477036319673,
+      "adapter_seconds_mean": 0.0,
+      "terminal": true
+    },
+    {
+      "task": "reacher_hard",
+      "condition": "raw",
+      "mode": "single",
+      "kind": "fog",
+      "corruption_seed": 10409003,
+      "seed": 409003,
+      "return_": 0.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 16.083314658142626,
+      "adapter_seconds_mean": 0.0,
+      "terminal": true
+    },
+    {
+      "task": "reacher_hard",
+      "condition": "raw",
+      "mode": "single",
+      "kind": "fog",
+      "corruption_seed": 10409004,
+      "seed": 409004,
+      "return_": 0.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 17.508947618305683,
+      "adapter_seconds_mean": 0.0,
+      "terminal": true
+    }
+  ]
+}

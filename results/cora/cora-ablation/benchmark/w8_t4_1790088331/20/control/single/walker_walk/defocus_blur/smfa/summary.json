@@ -1,0 +1,21 @@
+{
+  "n": 1,
+  "mean": 907.8000049032271,
+  "std": NaN,
+  "episodes": [
+    {
+      "task": "walker_walk",
+      "condition": "smfa",
+      "mode": "single",
+      "kind": "defocus_blur",
+      "corruption_seed": 10940000,
+      "seed": 940000,
+      "return_": 907.8000049032271,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 56.266104670241475,
+      "adapter_seconds_mean": 0.08509359390474856,
+      "terminal": true
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "n": 5,
+  "mean": 715.454895230243,
+  "std": 31.045128607721843,
+  "episodes": [
+    {
+      "task": "walker_run",
+      "condition": "nafnet",
+      "mode": "single",
+      "kind": "jpeg",
+      "corruption_seed": 10401000,
+      "seed": 401000,
+      "return_": 692.8728102650493,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 76.05080606415868,
+      "adapter_seconds_mean": 0.08637024594098329,
+      "terminal": true
+    },
+    {
+      "task": "walker_run",
+      "condition": "nafnet",
+      "mode": "single",
+      "kind": "jpeg",
+      "corruption_seed": 10401001,
+      "seed": 401001,
+      "return_": 759.3881340324879,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 74.11253964714706,
+      "adapter_seconds_mean": 0.08596949129365385,
+      "terminal": true
+    },
+    {
+      "task": "walker_run",
+      "condition": "nafnet",
+      "mode": "single",
+      "kind": "jpeg",
+      "corruption_seed": 10401002,
+      "seed": 401002,
+      "return_": 688.27552262065,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 73.86540633719414,
+      "adapter_seconds_mean": 0.08548097416199743,
+      "terminal": true
+    },
+    {
+      "task": "walker_run",
+      "condition": "nafnet",
+      "mode": "single",
+      "kind": "jpeg",
+      "corruption_seed": 10401003,
+      "seed": 401003,
+      "return_": 700.2111186496913,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 73.47833295539021,
+      "adapter_seconds_mean": 0.08461797467060388,
+      "terminal": true
+    },
+    {
+      "task": "walker_run",
+      "condition": "nafnet",
+      "mode": "single",
+      "kind": "jpeg",
+      "corruption_seed": 10401004,
+      "seed": 401004,
+      "return_": 736.5268905833364,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 72.24624705687165,
+      "adapter_seconds_mean": 0.0832991372514516,
+      "terminal": true
+    }
+  ]
+}

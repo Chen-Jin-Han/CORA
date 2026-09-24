@@ -1,0 +1,77 @@
+{
+  "n": 5,
+  "mean": 9.6,
+  "std": 19.308029417835474,
+  "episodes": [
+    {
+      "task": "reacher_hard",
+      "condition": "promptir",
+      "mode": "single",
+      "kind": "defocus_blur",
+      "corruption_seed": 10409000,
+      "seed": 409000,
+      "return_": 44.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 526.0349395638332,
+      "adapter_seconds_mean": 0.9772966601252556,
+      "terminal": true
+    },
+    {
+      "task": "reacher_hard",
+      "condition": "promptir",
+      "mode": "single",
+      "kind": "defocus_blur",
+      "corruption_seed": 10409001,
+      "seed": 409001,
+      "return_": 0.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 525.3051556963474,
+      "adapter_seconds_mean": 0.9840633444860578,
+      "terminal": true
+    },
+    {
+      "task": "reacher_hard",
+      "condition": "promptir",
+      "mode": "single",
+      "kind": "defocus_blur",
+      "corruption_seed": 10409002,
+      "seed": 409002,
+      "return_": 0.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 526.4147125491872,
+      "adapter_seconds_mean": 0.986107323365286,
+      "terminal": true
+    },
+    {
+      "task": "reacher_hard",
+      "condition": "promptir",
+      "mode": "single",
+      "kind": "defocus_blur",
+      "corruption_seed": 10409003,
+      "seed": 409003,
+      "return_": 0.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 428.6951130954549,
+      "adapter_seconds_mean": 0.7990486543513835,
+      "terminal": true
+    },
+    {
+      "task": "reacher_hard",
+      "condition": "promptir",
+      "mode": "single",
+      "kind": "defocus_blur",
+      "corruption_seed": 10409004,
+      "seed": 409004,
+      "return_": 4.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 335.8506474746391,
+      "adapter_seconds_mean": 0.6236883846204728,
+      "terminal": true
+    }
+  ]
+}

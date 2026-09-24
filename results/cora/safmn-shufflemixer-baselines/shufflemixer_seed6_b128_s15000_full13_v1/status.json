@@ -1,0 +1,13 @@
+{
+  "stage": "failed",
+  "time": 1790185063.72234,
+  "pid": 1494817,
+  "active": [
+    {
+      "id": "train_shufflemixer",
+      "pid": 1495014,
+      "gpu": 2
+    }
+  ],
+  "error": "RuntimeError('received signal 15')"
+}

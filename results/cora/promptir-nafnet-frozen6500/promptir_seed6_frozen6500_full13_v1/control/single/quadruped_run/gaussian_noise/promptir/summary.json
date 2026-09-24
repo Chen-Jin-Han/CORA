@@ -1,0 +1,77 @@
+{
+  "n": 5,
+  "mean": 449.3691191477468,
+  "std": 149.35900420312726,
+  "episodes": [
+    {
+      "task": "quadruped_run",
+      "condition": "promptir",
+      "mode": "single",
+      "kind": "gaussian_noise",
+      "corruption_seed": 10404000,
+      "seed": 404000,
+      "return_": 447.72958290341194,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 569.7158641749993,
+      "adapter_seconds_mean": 1.0583094631507992,
+      "terminal": true
+    },
+    {
+      "task": "quadruped_run",
+      "condition": "promptir",
+      "mode": "single",
+      "kind": "gaussian_noise",
+      "corruption_seed": 10404001,
+      "seed": 404001,
+      "return_": 496.2711611799896,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 558.8575390707701,
+      "adapter_seconds_mean": 1.0443467526715249,
+      "terminal": true
+    },
+    {
+      "task": "quadruped_run",
+      "condition": "promptir",
+      "mode": "single",
+      "kind": "gaussian_noise",
+      "corruption_seed": 10404002,
+      "seed": 404002,
+      "return_": 544.5429274748312,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 636.4711167775095,
+      "adapter_seconds_mean": 1.1984373822920025,
+      "terminal": true
+    },
+    {
+      "task": "quadruped_run",
+      "condition": "promptir",
+      "mode": "single",
+      "kind": "gaussian_noise",
+      "corruption_seed": 10404003,
+      "seed": 404003,
+      "return_": 194.61001003932324,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 670.722210525535,
+      "adapter_seconds_mean": 1.2642790589686483,
+      "terminal": true
+    },
+    {
+      "task": "quadruped_run",
+      "condition": "promptir",
+      "mode": "single",
+      "kind": "gaussian_noise",
+      "corruption_seed": 10404004,
+      "seed": 404004,
+      "return_": 563.6919141411781,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 597.1883780853823,
+      "adapter_seconds_mean": 1.1206582680866122,
+      "terminal": true
+    }
+  ]
+}

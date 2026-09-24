@@ -1,0 +1,21 @@
+{
+  "n": 1,
+  "mean": 963.0,
+  "std": NaN,
+  "episodes": [
+    {
+      "task": "reacher_easy",
+      "condition": "promptir",
+      "mode": "single",
+      "kind": "occlusion_patch",
+      "corruption_seed": 10948000,
+      "seed": 948000,
+      "return_": 963.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 166.4319778373465,
+      "adapter_seconds_mean": 0.30640292673930525,
+      "terminal": true
+    }
+  ]
+}

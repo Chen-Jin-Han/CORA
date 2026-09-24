@@ -1,0 +1,77 @@
+{
+  "n": 5,
+  "mean": 339.52102187041567,
+  "std": 299.9719931237723,
+  "episodes": [
+    {
+      "task": "quadruped_run",
+      "condition": "smfa",
+      "mode": "single",
+      "kind": "motion_blur",
+      "corruption_seed": 10404000,
+      "seed": 404000,
+      "return_": 569.6764538288116,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 67.19506830442697,
+      "adapter_seconds_mean": 0.09441781654022634,
+      "terminal": true
+    },
+    {
+      "task": "quadruped_run",
+      "condition": "smfa",
+      "mode": "single",
+      "kind": "motion_blur",
+      "corruption_seed": 10404001,
+      "seed": 404001,
+      "return_": 13.339448830791298,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 63.17797459103167,
+      "adapter_seconds_mean": 0.08832390077225864,
+      "terminal": true
+    },
+    {
+      "task": "quadruped_run",
+      "condition": "smfa",
+      "mode": "single",
+      "kind": "motion_blur",
+      "corruption_seed": 10404002,
+      "seed": 404002,
+      "return_": 536.659371921327,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 60.996559967286885,
+      "adapter_seconds_mean": 0.08375775045715272,
+      "terminal": true
+    },
+    {
+      "task": "quadruped_run",
+      "condition": "smfa",
+      "mode": "single",
+      "kind": "motion_blur",
+      "corruption_seed": 10404003,
+      "seed": 404003,
+      "return_": 9.151160824290855,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 60.97644666582346,
+      "adapter_seconds_mean": 0.08332153998874128,
+      "terminal": true
+    },
+    {
+      "task": "quadruped_run",
+      "condition": "smfa",
+      "mode": "single",
+      "kind": "motion_blur",
+      "corruption_seed": 10404004,
+      "seed": 404004,
+      "return_": 568.7786739468575,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 65.72651194408536,
+      "adapter_seconds_mean": 0.09337093025445937,
+      "terminal": true
+    }
+  ]
+}

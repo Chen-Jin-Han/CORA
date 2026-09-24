@@ -1,0 +1,77 @@
+{
+  "n": 5,
+  "mean": 104.2,
+  "std": 21.004761364985796,
+  "episodes": [
+    {
+      "task": "cartpole_swingup_sparse",
+      "condition": "raw",
+      "mode": "single",
+      "kind": "jpeg",
+      "corruption_seed": 10406000,
+      "seed": 406000,
+      "return_": 119.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 19.680321706458926,
+      "adapter_seconds_mean": 0.0,
+      "terminal": true
+    },
+    {
+      "task": "cartpole_swingup_sparse",
+      "condition": "raw",
+      "mode": "single",
+      "kind": "jpeg",
+      "corruption_seed": 10406001,
+      "seed": 406001,
+      "return_": 109.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 17.590420463122427,
+      "adapter_seconds_mean": 0.0,
+      "terminal": true
+    },
+    {
+      "task": "cartpole_swingup_sparse",
+      "condition": "raw",
+      "mode": "single",
+      "kind": "jpeg",
+      "corruption_seed": 10406002,
+      "seed": 406002,
+      "return_": 103.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 17.816541958600283,
+      "adapter_seconds_mean": 0.0,
+      "terminal": true
+    },
+    {
+      "task": "cartpole_swingup_sparse",
+      "condition": "raw",
+      "mode": "single",
+      "kind": "jpeg",
+      "corruption_seed": 10406003,
+      "seed": 406003,
+      "return_": 69.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 17.601064393296838,
+      "adapter_seconds_mean": 0.0,
+      "terminal": true
+    },
+    {
+      "task": "cartpole_swingup_sparse",
+      "condition": "raw",
+      "mode": "single",
+      "kind": "jpeg",
+      "corruption_seed": 10406004,
+      "seed": 406004,
+      "return_": 121.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 16.512717742472887,
+      "adapter_seconds_mean": 0.0,
+      "terminal": true
+    }
+  ]
+}

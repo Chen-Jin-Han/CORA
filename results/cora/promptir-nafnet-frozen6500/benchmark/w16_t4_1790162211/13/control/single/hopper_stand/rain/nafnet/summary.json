@@ -1,0 +1,21 @@
+{
+  "n": 1,
+  "mean": 936.6376663446426,
+  "std": NaN,
+  "episodes": [
+    {
+      "task": "hopper_stand",
+      "condition": "nafnet",
+      "mode": "single",
+      "kind": "rain",
+      "corruption_seed": 10943000,
+      "seed": 943000,
+      "return_": 936.6376663446426,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 145.31227796617895,
+      "adapter_seconds_mean": 0.2585219475273043,
+      "terminal": true
+    }
+  ]
+}

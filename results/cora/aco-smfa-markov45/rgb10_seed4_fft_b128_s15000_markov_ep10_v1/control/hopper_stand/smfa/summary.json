@@ -1,0 +1,117 @@
+{
+  "n": 10,
+  "mean": 641.248114836216,
+  "std": 250.4432583527955,
+  "episodes": [
+    {
+      "task": "hopper_stand",
+      "condition": "smfa",
+      "seed": 403000,
+      "return_": 685.9221938848495,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 61.39229426998645,
+      "adapter_seconds_mean": 0.08598961303196848,
+      "terminal": true
+    },
+    {
+      "task": "hopper_stand",
+      "condition": "smfa",
+      "seed": 403001,
+      "return_": 659.2568635940552,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 59.896498917602,
+      "adapter_seconds_mean": 0.08859837031550706,
+      "terminal": true
+    },
+    {
+      "task": "hopper_stand",
+      "condition": "smfa",
+      "seed": 403002,
+      "return_": 668.242648422718,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 58.617633402347565,
+      "adapter_seconds_mean": 0.08518256761878729,
+      "terminal": true
+    },
+    {
+      "task": "hopper_stand",
+      "condition": "smfa",
+      "seed": 403003,
+      "return_": 662.5879121422768,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 56.23458130378276,
+      "adapter_seconds_mean": 0.0816262787245214,
+      "terminal": true
+    },
+    {
+      "task": "hopper_stand",
+      "condition": "smfa",
+      "seed": 403004,
+      "return_": 0.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 57.014275027439,
+      "adapter_seconds_mean": 0.08163784077763557,
+      "terminal": true
+    },
+    {
+      "task": "hopper_stand",
+      "condition": "smfa",
+      "seed": 403005,
+      "return_": 577.2175496816635,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 57.61838629934937,
+      "adapter_seconds_mean": 0.08401237865351141,
+      "terminal": true
+    },
+    {
+      "task": "hopper_stand",
+      "condition": "smfa",
+      "seed": 403006,
+      "return_": 817.9498644471169,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 56.34573710337281,
+      "adapter_seconds_mean": 0.081826938662678,
+      "terminal": true
+    },
+    {
+      "task": "hopper_stand",
+      "condition": "smfa",
+      "seed": 403007,
+      "return_": 601.0476643443108,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 55.24578847363591,
+      "adapter_seconds_mean": 0.08005525521375238,
+      "terminal": true
+    },
+    {
+      "task": "hopper_stand",
+      "condition": "smfa",
+      "seed": 403008,
+      "return_": 806.5617346167564,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 56.68298649229109,
+      "adapter_seconds_mean": 0.08173230045102536,
+      "terminal": true
+    },
+    {
+      "task": "hopper_stand",
+      "condition": "smfa",
+      "seed": 403009,
+      "return_": 933.6947172284126,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 56.26340910047293,
+      "adapter_seconds_mean": 0.08136046238988638,
+      "terminal": true
+    }
+  ]
+}

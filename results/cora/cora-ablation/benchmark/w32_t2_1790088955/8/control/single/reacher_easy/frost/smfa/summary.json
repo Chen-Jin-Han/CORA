@@ -1,0 +1,21 @@
+{
+  "n": 1,
+  "mean": 965.0,
+  "std": NaN,
+  "episodes": [
+    {
+      "task": "reacher_easy",
+      "condition": "smfa",
+      "mode": "single",
+      "kind": "frost",
+      "corruption_seed": 10948000,
+      "seed": 948000,
+      "return_": 965.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 78.46970329713076,
+      "adapter_seconds_mean": 0.11748410174436867,
+      "terminal": true
+    }
+  ]
+}

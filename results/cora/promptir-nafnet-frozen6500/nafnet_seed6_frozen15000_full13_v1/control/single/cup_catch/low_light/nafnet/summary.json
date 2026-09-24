@@ -1,0 +1,77 @@
+{
+  "n": 5,
+  "mean": 976.8,
+  "std": 11.30044246921332,
+  "episodes": [
+    {
+      "task": "cup_catch",
+      "condition": "nafnet",
+      "mode": "single",
+      "kind": "low_light",
+      "corruption_seed": 10407000,
+      "seed": 407000,
+      "return_": 972.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 83.345283835195,
+      "adapter_seconds_mean": 0.09713993128761648,
+      "terminal": true
+    },
+    {
+      "task": "cup_catch",
+      "condition": "nafnet",
+      "mode": "single",
+      "kind": "low_light",
+      "corruption_seed": 10407001,
+      "seed": 407001,
+      "return_": 963.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 73.09644559118897,
+      "adapter_seconds_mean": 0.08658188625611365,
+      "terminal": true
+    },
+    {
+      "task": "cup_catch",
+      "condition": "nafnet",
+      "mode": "single",
+      "kind": "low_light",
+      "corruption_seed": 10407002,
+      "seed": 407002,
+      "return_": 989.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 74.63801701460034,
+      "adapter_seconds_mean": 0.08901549483835697,
+      "terminal": true
+    },
+    {
+      "task": "cup_catch",
+      "condition": "nafnet",
+      "mode": "single",
+      "kind": "low_light",
+      "corruption_seed": 10407003,
+      "seed": 407003,
+      "return_": 988.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 64.08283050265163,
+      "adapter_seconds_mean": 0.07260419691354036,
+      "terminal": true
+    },
+    {
+      "task": "cup_catch",
+      "condition": "nafnet",
+      "mode": "single",
+      "kind": "low_light",
+      "corruption_seed": 10407004,
+      "seed": 407004,
+      "return_": 972.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 64.90786310378462,
+      "adapter_seconds_mean": 0.07420430280268192,
+      "terminal": true
+    }
+  ]
+}

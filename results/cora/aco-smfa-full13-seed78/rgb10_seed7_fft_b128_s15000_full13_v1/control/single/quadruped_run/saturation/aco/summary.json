@@ -1,0 +1,77 @@
+{
+  "n": 5,
+  "mean": 505.6044638632287,
+  "std": 67.35371468008296,
+  "episodes": [
+    {
+      "task": "quadruped_run",
+      "condition": "aco",
+      "mode": "single",
+      "kind": "saturation",
+      "corruption_seed": 10404000,
+      "seed": 404000,
+      "return_": 554.5885344147682,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 25.778603048063815,
+      "adapter_seconds_mean": 0.01287104103155434,
+      "terminal": true
+    },
+    {
+      "task": "quadruped_run",
+      "condition": "aco",
+      "mode": "single",
+      "kind": "saturation",
+      "corruption_seed": 10404001,
+      "seed": 404001,
+      "return_": 445.7274410111204,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 23.155041882768273,
+      "adapter_seconds_mean": 0.012250492548570037,
+      "terminal": true
+    },
+    {
+      "task": "quadruped_run",
+      "condition": "aco",
+      "mode": "single",
+      "kind": "saturation",
+      "corruption_seed": 10404002,
+      "seed": 404002,
+      "return_": 539.995776972035,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 22.65846516471356,
+      "adapter_seconds_mean": 0.011797564083710313,
+      "terminal": true
+    },
+    {
+      "task": "quadruped_run",
+      "condition": "aco",
+      "mode": "single",
+      "kind": "saturation",
+      "corruption_seed": 10404003,
+      "seed": 404003,
+      "return_": 420.70288912471733,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 22.18174491636455,
+      "adapter_seconds_mean": 0.011494460819289088,
+      "terminal": true
+    },
+    {
+      "task": "quadruped_run",
+      "condition": "aco",
+      "mode": "single",
+      "kind": "saturation",
+      "corruption_seed": 10404004,
+      "seed": 404004,
+      "return_": 567.0076777935028,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 22.810339331626892,
+      "adapter_seconds_mean": 0.012083614893257618,
+      "terminal": true
+    }
+  ]
+}

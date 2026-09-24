@@ -1,0 +1,21 @@
+{
+  "n": 1,
+  "mean": 557.0539574027061,
+  "std": NaN,
+  "episodes": [
+    {
+      "task": "quadruped_run",
+      "condition": "smfa",
+      "mode": "single",
+      "kind": "gaussian_noise",
+      "corruption_seed": 10944000,
+      "seed": 944000,
+      "return_": 557.0539574027061,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 63.63458462804556,
+      "adapter_seconds_mean": 0.08447109310142696,
+      "terminal": true
+    }
+  ]
+}

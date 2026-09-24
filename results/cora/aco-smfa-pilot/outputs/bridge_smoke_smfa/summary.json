@@ -1,0 +1,12 @@
+{
+  "restored_rgb": {
+    "n": 1,
+    "mean": 1.2779810428619385,
+    "std": null
+  },
+  "agent_only_rgb": {
+    "n": 1,
+    "mean": 1.3607985079288483,
+    "std": null
+  }
+}

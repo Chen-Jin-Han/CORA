@@ -1,0 +1,77 @@
+{
+  "n": 5,
+  "mean": 926.6345135271549,
+  "std": 62.589444109293346,
+  "episodes": [
+    {
+      "task": "walker_stand",
+      "condition": "smfa",
+      "mode": "single",
+      "kind": "occlusion_patch",
+      "corruption_seed": 10402000,
+      "seed": 402000,
+      "return_": 982.9945618659258,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 53.91852464992553,
+      "adapter_seconds_mean": 0.07442962657473981,
+      "terminal": true
+    },
+    {
+      "task": "walker_stand",
+      "condition": "smfa",
+      "mode": "single",
+      "kind": "occlusion_patch",
+      "corruption_seed": 10402001,
+      "seed": 402001,
+      "return_": 962.5354700535536,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 49.20077812857926,
+      "adapter_seconds_mean": 0.06955661449767649,
+      "terminal": true
+    },
+    {
+      "task": "walker_stand",
+      "condition": "smfa",
+      "mode": "single",
+      "kind": "occlusion_patch",
+      "corruption_seed": 10402002,
+      "seed": 402002,
+      "return_": 968.9445417672396,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 51.94467497430742,
+      "adapter_seconds_mean": 0.07384166161343456,
+      "terminal": true
+    },
+    {
+      "task": "walker_stand",
+      "condition": "smfa",
+      "mode": "single",
+      "kind": "occlusion_patch",
+      "corruption_seed": 10402003,
+      "seed": 402003,
+      "return_": 845.9400379881263,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 51.001642568036914,
+      "adapter_seconds_mean": 0.07292876080051064,
+      "terminal": true
+    },
+    {
+      "task": "walker_stand",
+      "condition": "smfa",
+      "mode": "single",
+      "kind": "occlusion_patch",
+      "corruption_seed": 10402004,
+      "seed": 402004,
+      "return_": 872.7579559609294,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 52.80724797863513,
+      "adapter_seconds_mean": 0.07696737541072071,
+      "terminal": true
+    }
+  ]
+}

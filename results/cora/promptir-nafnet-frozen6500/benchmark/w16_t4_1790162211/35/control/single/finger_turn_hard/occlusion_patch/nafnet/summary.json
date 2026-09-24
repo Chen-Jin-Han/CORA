@@ -1,0 +1,21 @@
+{
+  "n": 1,
+  "mean": 980.0,
+  "std": NaN,
+  "episodes": [
+    {
+      "task": "finger_turn_hard",
+      "condition": "nafnet",
+      "mode": "single",
+      "kind": "occlusion_patch",
+      "corruption_seed": 10945000,
+      "seed": 945000,
+      "return_": 980.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 113.3541416618973,
+      "adapter_seconds_mean": 0.1980585765670985,
+      "terminal": true
+    }
+  ]
+}

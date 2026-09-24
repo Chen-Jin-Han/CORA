@@ -1,0 +1,13 @@
+{
+  "stage": "failed",
+  "time": 1790185063.8230517,
+  "pid": 1494816,
+  "active": [
+    {
+      "id": "train_safmn",
+      "pid": 1495015,
+      "gpu": 0
+    }
+  ],
+  "error": "RuntimeError('received signal 15')"
+}

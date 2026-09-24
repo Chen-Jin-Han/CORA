@@ -1,0 +1,77 @@
+{
+  "n": 5,
+  "mean": 846.891038447991,
+  "std": 96.44069137970156,
+  "episodes": [
+    {
+      "task": "walker_walk",
+      "condition": "promptir",
+      "mode": "single",
+      "kind": "occlusion_patch",
+      "corruption_seed": 10400000,
+      "seed": 400000,
+      "return_": 797.7517241835594,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 602.2979677524418,
+      "adapter_seconds_mean": 1.124033769890666,
+      "terminal": true
+    },
+    {
+      "task": "walker_walk",
+      "condition": "promptir",
+      "mode": "single",
+      "kind": "occlusion_patch",
+      "corruption_seed": 10400001,
+      "seed": 400001,
+      "return_": 956.098124705255,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 593.7869056956843,
+      "adapter_seconds_mean": 1.1087098170612006,
+      "terminal": true
+    },
+    {
+      "task": "walker_walk",
+      "condition": "promptir",
+      "mode": "single",
+      "kind": "occlusion_patch",
+      "corruption_seed": 10400002,
+      "seed": 400002,
+      "return_": 929.8111930042505,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 600.8858317695558,
+      "adapter_seconds_mean": 1.1213609249386935,
+      "terminal": true
+    },
+    {
+      "task": "walker_walk",
+      "condition": "promptir",
+      "mode": "single",
+      "kind": "occlusion_patch",
+      "corruption_seed": 10400003,
+      "seed": 400003,
+      "return_": 721.7135473508388,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 604.4943172028288,
+      "adapter_seconds_mean": 1.1281868800185622,
+      "terminal": true
+    },
+    {
+      "task": "walker_walk",
+      "condition": "promptir",
+      "mode": "single",
+      "kind": "occlusion_patch",
+      "corruption_seed": 10400004,
+      "seed": 400004,
+      "return_": 829.0806029960513,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 595.5407679425552,
+      "adapter_seconds_mean": 1.1123766780756414,
+      "terminal": true
+    }
+  ]
+}

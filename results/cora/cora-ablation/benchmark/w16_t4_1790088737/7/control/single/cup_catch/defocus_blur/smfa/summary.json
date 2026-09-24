@@ -1,0 +1,21 @@
+{
+  "n": 1,
+  "mean": 0.0,
+  "std": NaN,
+  "episodes": [
+    {
+      "task": "cup_catch",
+      "condition": "smfa",
+      "mode": "single",
+      "kind": "defocus_blur",
+      "corruption_seed": 10947000,
+      "seed": 947000,
+      "return_": 0.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 91.58486615028232,
+      "adapter_seconds_mean": 0.15642606957815589,
+      "terminal": true
+    }
+  ]
+}

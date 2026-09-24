@@ -1,0 +1,162 @@
+[
+  {
+    "task": "walker_walk",
+    "checkpoint": "E:\\Agent-Centric IP\\dmc_vision_local_v1\\dmc_walker_walk\\seed0\\run\\ckpt\\20260805T075836F299763\\agent.pkl",
+    "checkpoint_sha256": "5432662854396ef825f7ae70df4214d060f4ad0ed47a72a01275e79c3b176dea",
+    "config_sha256": "324fd6f0ace0a2214702a8a7e75b69629f1b5d134b725ccfe2405f36996544c9",
+    "env": {
+      "camera": -1,
+      "image": true,
+      "proprio": false,
+      "repeat": 2,
+      "size": [
+        64,
+        64
+      ]
+    }
+  },
+  {
+    "task": "walker_run",
+    "checkpoint": "E:\\Agent-Centric IP\\dmc_vision_local_v1\\dmc_walker_run\\seed0\\run\\ckpt\\20260806T125224F219912\\agent.pkl",
+    "checkpoint_sha256": "d8c5e7ef3ba1819bd828b8267428f12c17657e0a692337c7c9ecee006c85e258",
+    "config_sha256": "a570537811cea7d7c06b0707e819a463dcd70e167a2e52fbf646ccd4cb70d3bd",
+    "env": {
+      "camera": -1,
+      "image": true,
+      "proprio": false,
+      "repeat": 2,
+      "size": [
+        64,
+        64
+      ]
+    }
+  },
+  {
+    "task": "walker_stand",
+    "checkpoint": "E:\\Agent-Centric IP\\dmc_vision_local_v1\\dmc_walker_stand\\seed0\\run\\ckpt\\20260805T082202F484745\\agent.pkl",
+    "checkpoint_sha256": "68f06f84efb53347dde495618d52c38e9f178df4b7db69253354790ba466fe14",
+    "config_sha256": "08d1c7eb63dbd0318292b1dc7f771c1050e218d3d95c5c06205db3dff00144da",
+    "env": {
+      "camera": -1,
+      "image": true,
+      "proprio": false,
+      "repeat": 2,
+      "size": [
+        64,
+        64
+      ]
+    }
+  },
+  {
+    "task": "hopper_stand",
+    "checkpoint": "E:\\Agent-Centric IP\\dmc_vision_local_v1\\dmc_hopper_stand\\seed0\\run\\ckpt\\20260812T091750F960681\\agent.pkl",
+    "checkpoint_sha256": "feaddd6b70bf8ff106adccd1210cc6d387001d092481ebb91c75f830ed884eeb",
+    "config_sha256": "86761fc44eca8ed200de4c7d20a207abc847f3a87596f02fd171b53edc4d8309",
+    "env": {
+      "camera": -1,
+      "image": true,
+      "proprio": false,
+      "repeat": 2,
+      "size": [
+        64,
+        64
+      ]
+    }
+  },
+  {
+    "task": "quadruped_run",
+    "checkpoint": "E:\\Agent-Centric IP\\dmc_vision_local_v1\\dmc_quadruped_run\\seed0\\run\\ckpt\\20260907T142535F297769\\agent.pkl",
+    "checkpoint_sha256": "7d0b107e3e690b0e07ed66f7df6f51a4212077523e12eebb7da001fce069e0cd",
+    "config_sha256": "a132672d577de9fe4c1350fd0d58a229ff4086a92045cb792a3f0d3efb4c4ced",
+    "env": {
+      "camera": -1,
+      "image": true,
+      "proprio": false,
+      "repeat": 2,
+      "size": [
+        64,
+        64
+      ]
+    }
+  },
+  {
+    "task": "finger_turn_hard",
+    "checkpoint": "E:\\Agent-Centric IP\\dmc_vision_local_v1\\dmc_finger_turn_hard\\seed0\\run\\ckpt\\20260812T070515F061007\\agent.pkl",
+    "checkpoint_sha256": "13ee123fc14f32194309309f46fb03f8a93a3ee2d8ad59b99a2c5785e5ed9f57",
+    "config_sha256": "61ed7a6f809abced280ed516b8c49fe0f7d5581d061980a54ab329ac8685f321",
+    "env": {
+      "camera": -1,
+      "image": true,
+      "proprio": false,
+      "repeat": 2,
+      "size": [
+        64,
+        64
+      ]
+    }
+  },
+  {
+    "task": "cartpole_swingup_sparse",
+    "checkpoint": "E:\\Agent-Centric IP\\dmc_vision_local_v1\\dmc_cartpole_swingup_sparse\\seed0\\run\\ckpt\\20260812T072450F044333\\agent.pkl",
+    "checkpoint_sha256": "52774fa4ac1f84316cefc30cfcf9b2db7e17b96ea8dbc25c9fa344e33543bc7c",
+    "config_sha256": "38c900ad0a3e967e5004afebd0be7d67a721fb87432c72b01881df8aa18dd3c0",
+    "env": {
+      "camera": -1,
+      "image": true,
+      "proprio": false,
+      "repeat": 2,
+      "size": [
+        64,
+        64
+      ]
+    }
+  },
+  {
+    "task": "cup_catch",
+    "checkpoint": "E:\\Agent-Centric IP\\dmc_vision_local_v1\\dmc_cup_catch\\seed0\\run\\ckpt\\20260902T132507F300004\\agent.pkl",
+    "checkpoint_sha256": "8364adf800995066b38bde8a1314ed5a084be75c1c9a1cdb47afe6035e38c6c1",
+    "config_sha256": "83da2ae6fbd3cf0519f254a7656608e10aa84fd68b8b415a33537385860f9aad",
+    "env": {
+      "camera": -1,
+      "image": true,
+      "proprio": false,
+      "repeat": 2,
+      "size": [
+        64,
+        64
+      ]
+    }
+  },
+  {
+    "task": "reacher_easy",
+    "checkpoint": "E:\\Agent-Centric IP\\dmc_vision_local_v1\\dmc_reacher_easy\\seed0\\run\\ckpt\\20260903T183712F248374\\agent.pkl",
+    "checkpoint_sha256": "aee8caa3d28e6aa3a0c7c63e8dc8c5a28b9ca913e59ee3191ae18fc58a4294c3",
+    "config_sha256": "b14e35b538002072502df8390e767f7c27a412b647bc766ba17fa4bd3242c77a",
+    "env": {
+      "camera": -1,
+      "image": true,
+      "proprio": false,
+      "repeat": 2,
+      "size": [
+        64,
+        64
+      ]
+    }
+  },
+  {
+    "task": "reacher_hard",
+    "checkpoint": "E:\\Agent-Centric IP\\dmc_vision_local_v1\\dmc_reacher_hard\\seed0\\run\\ckpt\\20260907T153312F677974\\agent.pkl",
+    "checkpoint_sha256": "6896d24ca139edec62e6f369635483b8370ed2e03fb9e781fadafc037d86667a",
+    "config_sha256": "9644b8e404081cb9469ceeea0143e1079accdfae33118a8fa45e58e1e58fcd7e",
+    "env": {
+      "camera": -1,
+      "image": true,
+      "proprio": false,
+      "repeat": 2,
+      "size": [
+        64,
+        64
+      ]
+    }
+  }
+]

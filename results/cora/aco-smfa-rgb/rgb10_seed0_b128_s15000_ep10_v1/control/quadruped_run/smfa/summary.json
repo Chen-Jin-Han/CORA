@@ -1,0 +1,117 @@
+{
+  "n": 10,
+  "mean": 434.6248810516678,
+  "std": 157.53608569383434,
+  "episodes": [
+    {
+      "task": "quadruped_run",
+      "condition": "smfa",
+      "seed": 404000,
+      "return_": 563.0070993304253,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 59.61968987295404,
+      "adapter_seconds_mean": 0.0808810129230842,
+      "terminal": true
+    },
+    {
+      "task": "quadruped_run",
+      "condition": "smfa",
+      "seed": 404001,
+      "return_": 429.5440654881386,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 57.99893949693069,
+      "adapter_seconds_mean": 0.08140533869899809,
+      "terminal": true
+    },
+    {
+      "task": "quadruped_run",
+      "condition": "smfa",
+      "seed": 404002,
+      "return_": 533.1806798552861,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 57.59140409715474,
+      "adapter_seconds_mean": 0.08094078425038606,
+      "terminal": true
+    },
+    {
+      "task": "quadruped_run",
+      "condition": "smfa",
+      "seed": 404003,
+      "return_": 485.1545997398789,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 57.89770253514871,
+      "adapter_seconds_mean": 0.08171421939507127,
+      "terminal": true
+    },
+    {
+      "task": "quadruped_run",
+      "condition": "smfa",
+      "seed": 404004,
+      "return_": 479.59982597021735,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 58.15284406859428,
+      "adapter_seconds_mean": 0.08070006502885371,
+      "terminal": true
+    },
+    {
+      "task": "quadruped_run",
+      "condition": "smfa",
+      "seed": 404005,
+      "return_": 36.63111275623669,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 57.69106598338112,
+      "adapter_seconds_mean": 0.08068473162967711,
+      "terminal": true
+    },
+    {
+      "task": "quadruped_run",
+      "condition": "smfa",
+      "seed": 404006,
+      "return_": 300.6435058515126,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 57.84311908716336,
+      "adapter_seconds_mean": 0.08121462418232113,
+      "terminal": true
+    },
+    {
+      "task": "quadruped_run",
+      "condition": "smfa",
+      "seed": 404007,
+      "return_": 508.02011592825875,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 57.630995518062264,
+      "adapter_seconds_mean": 0.08062584029696881,
+      "terminal": true
+    },
+    {
+      "task": "quadruped_run",
+      "condition": "smfa",
+      "seed": 404008,
+      "return_": 525.8898399174213,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 57.76229475485161,
+      "adapter_seconds_mean": 0.08097917052917182,
+      "terminal": true
+    },
+    {
+      "task": "quadruped_run",
+      "condition": "smfa",
+      "seed": 404009,
+      "return_": 484.577965679302,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 57.44681455055252,
+      "adapter_seconds_mean": 0.08101037795841694,
+      "terminal": true
+    }
+  ]
+}

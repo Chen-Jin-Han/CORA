@@ -1,0 +1,14 @@
+{
+  "model": "smfa",
+  "step": 10000,
+  "params": 183353,
+  "n": 6300,
+  "psnr": 30.541140556125182,
+  "raw_psnr": 20.45108751383639,
+  "ssim": 0.8738629689859966,
+  "roi_l1": 0.04395548644667817,
+  "iou": 0.9096005920078903,
+  "latency_ms_median": 3.5986164584755898,
+  "latency_ms_p95": 3.700897144153714,
+  "metric_protocol": "RGB [0,1], full frame no crop; PSNR per image; skimage SSIM; supplement to control returns"
+}

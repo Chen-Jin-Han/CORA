@@ -1,0 +1,77 @@
+{
+  "n": 5,
+  "mean": 732.9952966612764,
+  "std": 51.50294224969501,
+  "episodes": [
+    {
+      "task": "walker_run",
+      "condition": "promptir",
+      "mode": "single",
+      "kind": "rain",
+      "corruption_seed": 10401000,
+      "seed": 401000,
+      "return_": 749.9140356765129,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 613.1174676511437,
+      "adapter_seconds_mean": 1.1325112748928368,
+      "terminal": true
+    },
+    {
+      "task": "walker_run",
+      "condition": "promptir",
+      "mode": "single",
+      "kind": "rain",
+      "corruption_seed": 10401001,
+      "seed": 401001,
+      "return_": 758.6661063730717,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 590.0434570126235,
+      "adapter_seconds_mean": 1.0926745785642415,
+      "terminal": true
+    },
+    {
+      "task": "walker_run",
+      "condition": "promptir",
+      "mode": "single",
+      "kind": "rain",
+      "corruption_seed": 10401002,
+      "seed": 401002,
+      "return_": 641.094603292644,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 606.7467895150185,
+      "adapter_seconds_mean": 1.1238094580248,
+      "terminal": true
+    },
+    {
+      "task": "walker_run",
+      "condition": "promptir",
+      "mode": "single",
+      "kind": "rain",
+      "corruption_seed": 10401003,
+      "seed": 401003,
+      "return_": 758.9635200798512,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 605.9135265247896,
+      "adapter_seconds_mean": 1.1205378334671259,
+      "terminal": true
+    },
+    {
+      "task": "walker_run",
+      "condition": "promptir",
+      "mode": "single",
+      "kind": "rain",
+      "corruption_seed": 10401004,
+      "seed": 401004,
+      "return_": 756.3382178843021,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 591.5788631569594,
+      "adapter_seconds_mean": 1.0957002137806267,
+      "terminal": true
+    }
+  ]
+}

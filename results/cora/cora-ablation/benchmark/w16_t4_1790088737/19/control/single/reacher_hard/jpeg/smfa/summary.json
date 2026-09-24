@@ -1,0 +1,21 @@
+{
+  "n": 1,
+  "mean": 0.0,
+  "std": NaN,
+  "episodes": [
+    {
+      "task": "reacher_hard",
+      "condition": "smfa",
+      "mode": "single",
+      "kind": "jpeg",
+      "corruption_seed": 10949000,
+      "seed": 949000,
+      "return_": 0.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 73.28421790152788,
+      "adapter_seconds_mean": 0.12204059372469783,
+      "terminal": true
+    }
+  ]
+}

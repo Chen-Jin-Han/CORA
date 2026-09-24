@@ -1,0 +1,67 @@
+{
+  "n": 5,
+  "mean": 265.33961512558164,
+  "std": 43.66396804540815,
+  "episodes": [
+    {
+      "task": "walker_run",
+      "condition": "raw",
+      "kind": "shot_noise",
+      "seed": 401000,
+      "return_": 246.9832908604294,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 19.253867076244205,
+      "adapter_seconds_mean": 0.0,
+      "terminal": true
+    },
+    {
+      "task": "walker_run",
+      "condition": "raw",
+      "kind": "shot_noise",
+      "seed": 401001,
+      "return_": 269.46938657807186,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 17.715534219983965,
+      "adapter_seconds_mean": 0.0,
+      "terminal": true
+    },
+    {
+      "task": "walker_run",
+      "condition": "raw",
+      "kind": "shot_noise",
+      "seed": 401002,
+      "return_": 327.3413947895169,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 17.153717776294798,
+      "adapter_seconds_mean": 0.0,
+      "terminal": true
+    },
+    {
+      "task": "walker_run",
+      "condition": "raw",
+      "kind": "shot_noise",
+      "seed": 401003,
+      "return_": 207.63852851791307,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 17.648245905991644,
+      "adapter_seconds_mean": 0.0,
+      "terminal": true
+    },
+    {
+      "task": "walker_run",
+      "condition": "raw",
+      "kind": "shot_noise",
+      "seed": 401004,
+      "return_": 275.26547488197684,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 17.518260246142745,
+      "adapter_seconds_mean": 0.0,
+      "terminal": true
+    }
+  ]
+}

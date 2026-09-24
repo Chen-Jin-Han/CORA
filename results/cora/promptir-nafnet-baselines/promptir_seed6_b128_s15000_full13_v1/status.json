@@ -1,0 +1,13 @@
+{
+  "stage": "failed",
+  "time": 1790160067.5601864,
+  "pid": 1348833,
+  "active": [
+    {
+      "id": "train_promptir",
+      "pid": 1349359,
+      "gpu": 0
+    }
+  ],
+  "error": "RuntimeError('received signal 15')"
+}

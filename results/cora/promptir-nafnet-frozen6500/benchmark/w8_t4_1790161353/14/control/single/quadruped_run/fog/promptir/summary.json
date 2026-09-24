@@ -1,0 +1,21 @@
+{
+  "n": 1,
+  "mean": 562.7172436714172,
+  "std": NaN,
+  "episodes": [
+    {
+      "task": "quadruped_run",
+      "condition": "promptir",
+      "mode": "single",
+      "kind": "fog",
+      "corruption_seed": 10944000,
+      "seed": 944000,
+      "return_": 562.7172436714172,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 135.0416294382885,
+      "adapter_seconds_mean": 0.24377960465103388,
+      "terminal": true
+    }
+  ]
+}

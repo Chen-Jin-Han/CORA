@@ -1,0 +1,21 @@
+{
+  "n": 1,
+  "mean": 0.0,
+  "std": NaN,
+  "episodes": [
+    {
+      "task": "cartpole_swingup_sparse",
+      "condition": "smfa",
+      "mode": "single",
+      "kind": "motion_blur",
+      "corruption_seed": 10946000,
+      "seed": 946000,
+      "return_": 0.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 66.32698458060622,
+      "adapter_seconds_mean": 0.08991319659724832,
+      "terminal": true
+    }
+  ]
+}

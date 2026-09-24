@@ -1,0 +1,77 @@
+{
+  "n": 5,
+  "mean": 959.2623312547803,
+  "std": 9.769123564597598,
+  "episodes": [
+    {
+      "task": "walker_walk",
+      "condition": "promptir",
+      "mode": "single",
+      "kind": "defocus_blur",
+      "corruption_seed": 10400000,
+      "seed": 400000,
+      "return_": 942.9028078988194,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 652.2328772684559,
+      "adapter_seconds_mean": 1.2187635090239346,
+      "terminal": true
+    },
+    {
+      "task": "walker_walk",
+      "condition": "promptir",
+      "mode": "single",
+      "kind": "defocus_blur",
+      "corruption_seed": 10400001,
+      "seed": 400001,
+      "return_": 959.9168436080217,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 638.4462794000283,
+      "adapter_seconds_mean": 1.198044937159866,
+      "terminal": true
+    },
+    {
+      "task": "walker_walk",
+      "condition": "promptir",
+      "mode": "single",
+      "kind": "defocus_blur",
+      "corruption_seed": 10400002,
+      "seed": 400002,
+      "return_": 963.393466964364,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 606.7411466063932,
+      "adapter_seconds_mean": 1.1358834042642265,
+      "terminal": true
+    },
+    {
+      "task": "walker_walk",
+      "condition": "promptir",
+      "mode": "single",
+      "kind": "defocus_blur",
+      "corruption_seed": 10400003,
+      "seed": 400003,
+      "return_": 968.8987580314279,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 611.1455429345369,
+      "adapter_seconds_mean": 1.141843222975731,
+      "terminal": true
+    },
+    {
+      "task": "walker_walk",
+      "condition": "promptir",
+      "mode": "single",
+      "kind": "defocus_blur",
+      "corruption_seed": 10400004,
+      "seed": 400004,
+      "return_": 961.1997797712684,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 604.5700926855206,
+      "adapter_seconds_mean": 1.1329710233882069,
+      "terminal": true
+    }
+  ]
+}

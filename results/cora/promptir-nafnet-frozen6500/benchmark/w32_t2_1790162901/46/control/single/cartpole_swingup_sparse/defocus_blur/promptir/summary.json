@@ -1,0 +1,21 @@
+{
+  "n": 1,
+  "mean": 835.0,
+  "std": NaN,
+  "episodes": [
+    {
+      "task": "cartpole_swingup_sparse",
+      "condition": "promptir",
+      "mode": "single",
+      "kind": "defocus_blur",
+      "corruption_seed": 10946000,
+      "seed": 946000,
+      "return_": 835.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 346.47198604326695,
+      "adapter_seconds_mean": 0.6407110029496252,
+      "terminal": true
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "n": 5,
+  "mean": 750.7094353577122,
+  "std": 10.855371763949245,
+  "episodes": [
+    {
+      "task": "walker_run",
+      "condition": "smfa",
+      "mode": "single",
+      "kind": "gaussian_noise",
+      "corruption_seed": 10401000,
+      "seed": 401000,
+      "return_": 746.0232045869343,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 56.26817578449845,
+      "adapter_seconds_mean": 0.07969992368482054,
+      "terminal": true
+    },
+    {
+      "task": "walker_run",
+      "condition": "smfa",
+      "mode": "single",
+      "kind": "gaussian_noise",
+      "corruption_seed": 10401001,
+      "seed": 401001,
+      "return_": 765.427263200283,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 55.28342945128679,
+      "adapter_seconds_mean": 0.07929195512458682,
+      "terminal": true
+    },
+    {
+      "task": "walker_run",
+      "condition": "smfa",
+      "mode": "single",
+      "kind": "gaussian_noise",
+      "corruption_seed": 10401002,
+      "seed": 401002,
+      "return_": 744.2197902440093,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 57.88103307597339,
+      "adapter_seconds_mean": 0.08408894929476082,
+      "terminal": true
+    },
+    {
+      "task": "walker_run",
+      "condition": "smfa",
+      "mode": "single",
+      "kind": "gaussian_noise",
+      "corruption_seed": 10401003,
+      "seed": 401003,
+      "return_": 758.540359288454,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 57.70510866865516,
+      "adapter_seconds_mean": 0.08400589759834111,
+      "terminal": true
+    },
+    {
+      "task": "walker_run",
+      "condition": "smfa",
+      "mode": "single",
+      "kind": "gaussian_noise",
+      "corruption_seed": 10401004,
+      "seed": 401004,
+      "return_": 739.3365594688803,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 53.89252597466111,
+      "adapter_seconds_mean": 0.0767803754657507,
+      "terminal": true
+    }
+  ]
+}

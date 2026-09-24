@@ -1,0 +1,8 @@
+{
+  "stage": "complete",
+  "pid": 219327,
+  "time": 1789947318.056367,
+  "new_training_runs": 4,
+  "new_control_episodes": 3000,
+  "reused_baseline_episodes": 800
+}

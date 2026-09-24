@@ -1,0 +1,18 @@
+{
+  "stage": "complete",
+  "pid": 1406266,
+  "time": 1790173243.8772473,
+  "active": [],
+  "prepare": [
+    {
+      "model": "promptir",
+      "pid": 1406898
+    },
+    {
+      "model": "nafnet",
+      "pid": 1406899
+    }
+  ],
+  "formal_episodes": 1500,
+  "frame_files": 20
+}

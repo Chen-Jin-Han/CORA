@@ -1,0 +1,21 @@
+{
+  "n": 1,
+  "mean": 983.3991352915764,
+  "std": NaN,
+  "episodes": [
+    {
+      "task": "walker_walk",
+      "condition": "promptir",
+      "mode": "single",
+      "kind": "frost",
+      "corruption_seed": 10940000,
+      "seed": 940000,
+      "return_": 983.3991352915764,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 416.06894624698907,
+      "adapter_seconds_mean": 0.77411232528463,
+      "terminal": true
+    }
+  ]
+}

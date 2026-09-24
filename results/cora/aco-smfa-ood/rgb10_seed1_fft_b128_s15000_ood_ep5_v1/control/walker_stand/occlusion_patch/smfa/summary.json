@@ -1,0 +1,67 @@
+{
+  "n": 5,
+  "mean": 936.9004793964326,
+  "std": 42.08056049281592,
+  "episodes": [
+    {
+      "task": "walker_stand",
+      "condition": "smfa",
+      "kind": "occlusion_patch",
+      "seed": 402000,
+      "return_": 959.561658706516,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 58.45449546724558,
+      "adapter_seconds_mean": 0.0838015800472349,
+      "terminal": true
+    },
+    {
+      "task": "walker_stand",
+      "condition": "smfa",
+      "kind": "occlusion_patch",
+      "seed": 402001,
+      "return_": 950.8529572933912,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 56.02980902325362,
+      "adapter_seconds_mean": 0.08227180521003902,
+      "terminal": true
+    },
+    {
+      "task": "walker_stand",
+      "condition": "smfa",
+      "kind": "occlusion_patch",
+      "seed": 402002,
+      "return_": 864.6183351352811,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 55.173824697267264,
+      "adapter_seconds_mean": 0.08081578414142132,
+      "terminal": true
+    },
+    {
+      "task": "walker_stand",
+      "condition": "smfa",
+      "kind": "occlusion_patch",
+      "seed": 402003,
+      "return_": 970.7669519484043,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 55.926571214571595,
+      "adapter_seconds_mean": 0.08221850472316146,
+      "terminal": true
+    },
+    {
+      "task": "walker_stand",
+      "condition": "smfa",
+      "kind": "occlusion_patch",
+      "seed": 402004,
+      "return_": 938.7024938985705,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 56.3123768880032,
+      "adapter_seconds_mean": 0.0831892793411389,
+      "terminal": true
+    }
+  ]
+}

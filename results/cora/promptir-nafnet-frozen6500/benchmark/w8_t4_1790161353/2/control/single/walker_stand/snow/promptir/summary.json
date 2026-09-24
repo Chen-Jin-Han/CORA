@@ -1,0 +1,21 @@
+{
+  "n": 1,
+  "mean": 978.0810411572456,
+  "std": NaN,
+  "episodes": [
+    {
+      "task": "walker_stand",
+      "condition": "promptir",
+      "mode": "single",
+      "kind": "snow",
+      "corruption_seed": 10942000,
+      "seed": 942000,
+      "return_": 978.0810411572456,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 140.17319860029966,
+      "adapter_seconds_mean": 0.25047348368540406,
+      "terminal": true
+    }
+  ]
+}

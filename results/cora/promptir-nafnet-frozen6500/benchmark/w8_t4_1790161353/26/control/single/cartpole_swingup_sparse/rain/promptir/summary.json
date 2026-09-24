@@ -1,0 +1,21 @@
+{
+  "n": 1,
+  "mean": 826.0,
+  "std": NaN,
+  "episodes": [
+    {
+      "task": "cartpole_swingup_sparse",
+      "condition": "promptir",
+      "mode": "single",
+      "kind": "rain",
+      "corruption_seed": 10946000,
+      "seed": 946000,
+      "return_": 826.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 130.3910770667717,
+      "adapter_seconds_mean": 0.2351981577705592,
+      "terminal": true
+    }
+  ]
+}

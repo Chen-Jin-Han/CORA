@@ -1,0 +1,21 @@
+{
+  "n": 1,
+  "mean": 963.0,
+  "std": NaN,
+  "episodes": [
+    {
+      "task": "cup_catch",
+      "condition": "nafnet",
+      "mode": "single",
+      "kind": "shadow",
+      "corruption_seed": 10947000,
+      "seed": 947000,
+      "return_": 963.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 93.76545782480389,
+      "adapter_seconds_mean": 0.1279699523691088,
+      "terminal": true
+    }
+  ]
+}

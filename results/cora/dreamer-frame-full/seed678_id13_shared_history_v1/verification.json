@@ -1,0 +1,10 @@
+{
+  "complete": true,
+  "trajectories": 70,
+  "evaluation_frames": 25000,
+  "protocol_frame_positions": 350000,
+  "method_frame_records": 2450000,
+  "restored_images": 2100000,
+  "metric_files": 50,
+  "unique_seeds": 70
+}

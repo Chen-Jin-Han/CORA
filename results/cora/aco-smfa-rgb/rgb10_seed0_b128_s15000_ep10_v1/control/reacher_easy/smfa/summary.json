@@ -1,0 +1,117 @@
+{
+  "n": 10,
+  "mean": 972.2,
+  "std": 18.467990325605722,
+  "episodes": [
+    {
+      "task": "reacher_easy",
+      "condition": "smfa",
+      "seed": 408000,
+      "return_": 959.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 59.35317515023053,
+      "adapter_seconds_mean": 0.08200033584050834,
+      "terminal": true
+    },
+    {
+      "task": "reacher_easy",
+      "condition": "smfa",
+      "seed": 408001,
+      "return_": 981.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 57.760699552018195,
+      "adapter_seconds_mean": 0.08183359674550593,
+      "terminal": true
+    },
+    {
+      "task": "reacher_easy",
+      "condition": "smfa",
+      "seed": 408002,
+      "return_": 976.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 56.5069355648011,
+      "adapter_seconds_mean": 0.08111398357991129,
+      "terminal": true
+    },
+    {
+      "task": "reacher_easy",
+      "condition": "smfa",
+      "seed": 408003,
+      "return_": 1000.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 56.52709949109703,
+      "adapter_seconds_mean": 0.08106235447712243,
+      "terminal": true
+    },
+    {
+      "task": "reacher_easy",
+      "condition": "smfa",
+      "seed": 408004,
+      "return_": 993.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 57.79901858093217,
+      "adapter_seconds_mean": 0.08200688067544251,
+      "terminal": true
+    },
+    {
+      "task": "reacher_easy",
+      "condition": "smfa",
+      "seed": 408005,
+      "return_": 943.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 57.43132362514734,
+      "adapter_seconds_mean": 0.08144499349407852,
+      "terminal": true
+    },
+    {
+      "task": "reacher_easy",
+      "condition": "smfa",
+      "seed": 408006,
+      "return_": 966.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 56.68807029817253,
+      "adapter_seconds_mean": 0.08118691183067858,
+      "terminal": true
+    },
+    {
+      "task": "reacher_easy",
+      "condition": "smfa",
+      "seed": 408007,
+      "return_": 987.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 56.2280421522446,
+      "adapter_seconds_mean": 0.0801435496546328,
+      "terminal": true
+    },
+    {
+      "task": "reacher_easy",
+      "condition": "smfa",
+      "seed": 408008,
+      "return_": 951.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 57.143627353943884,
+      "adapter_seconds_mean": 0.0810943256514147,
+      "terminal": true
+    },
+    {
+      "task": "reacher_easy",
+      "condition": "smfa",
+      "seed": 408009,
+      "return_": 966.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 56.71323581971228,
+      "adapter_seconds_mean": 0.08060737500246615,
+      "terminal": true
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "n": 5,
+  "mean": 423.495035069358,
+  "std": 187.28578796184794,
+  "episodes": [
+    {
+      "task": "quadruped_run",
+      "condition": "aco",
+      "mode": "single",
+      "kind": "occlusion_patch",
+      "corruption_seed": 10404000,
+      "seed": 404000,
+      "return_": 560.5666402578354,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 24.067724985070527,
+      "adapter_seconds_mean": 0.01178457509726286,
+      "terminal": true
+    },
+    {
+      "task": "quadruped_run",
+      "condition": "aco",
+      "mode": "single",
+      "kind": "occlusion_patch",
+      "corruption_seed": 10404001,
+      "seed": 404001,
+      "return_": 237.29896396759796,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 22.57371423114091,
+      "adapter_seconds_mean": 0.011182986011728645,
+      "terminal": true
+    },
+    {
+      "task": "quadruped_run",
+      "condition": "aco",
+      "mode": "single",
+      "kind": "occlusion_patch",
+      "corruption_seed": 10404002,
+      "seed": 404002,
+      "return_": 549.4698177422397,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 21.869027165696025,
+      "adapter_seconds_mean": 0.010956161106005311,
+      "terminal": true
+    },
+    {
+      "task": "quadruped_run",
+      "condition": "aco",
+      "mode": "single",
+      "kind": "occlusion_patch",
+      "corruption_seed": 10404003,
+      "seed": 404003,
+      "return_": 200.64694944788062,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 22.296135780401528,
+      "adapter_seconds_mean": 0.01095001419633627,
+      "terminal": true
+    },
+    {
+      "task": "quadruped_run",
+      "condition": "aco",
+      "mode": "single",
+      "kind": "occlusion_patch",
+      "corruption_seed": 10404004,
+      "seed": 404004,
+      "return_": 569.4928039312363,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 21.872823703102767,
+      "adapter_seconds_mean": 0.011027852119877935,
+      "terminal": true
+    }
+  ]
+}

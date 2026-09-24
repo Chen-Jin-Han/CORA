@@ -1,0 +1,77 @@
+{
+  "n": 5,
+  "mean": 489.09594098248056,
+  "std": 75.95406867621352,
+  "episodes": [
+    {
+      "task": "quadruped_run",
+      "condition": "nafnet",
+      "mode": "single",
+      "kind": "low_light",
+      "corruption_seed": 10404000,
+      "seed": 404000,
+      "return_": 553.2902089953423,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 71.77606111112982,
+      "adapter_seconds_mean": 0.07942727093957365,
+      "terminal": true
+    },
+    {
+      "task": "quadruped_run",
+      "condition": "nafnet",
+      "mode": "single",
+      "kind": "low_light",
+      "corruption_seed": 10404001,
+      "seed": 404001,
+      "return_": 395.38490568101406,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 60.28627138398588,
+      "adapter_seconds_mean": 0.06841006730310618,
+      "terminal": true
+    },
+    {
+      "task": "quadruped_run",
+      "condition": "nafnet",
+      "mode": "single",
+      "kind": "low_light",
+      "corruption_seed": 10404002,
+      "seed": 404002,
+      "return_": 529.0408738286933,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 60.65965211484581,
+      "adapter_seconds_mean": 0.06857533767633141,
+      "terminal": true
+    },
+    {
+      "task": "quadruped_run",
+      "condition": "nafnet",
+      "mode": "single",
+      "kind": "low_light",
+      "corruption_seed": 10404003,
+      "seed": 404003,
+      "return_": 418.5999731498305,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 59.077461957000196,
+      "adapter_seconds_mean": 0.06647074238583446,
+      "terminal": true
+    },
+    {
+      "task": "quadruped_run",
+      "condition": "nafnet",
+      "mode": "single",
+      "kind": "low_light",
+      "corruption_seed": 10404004,
+      "seed": 404004,
+      "return_": 549.1637432575226,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 63.69424263574183,
+      "adapter_seconds_mean": 0.07344432408362626,
+      "terminal": true
+    }
+  ]
+}

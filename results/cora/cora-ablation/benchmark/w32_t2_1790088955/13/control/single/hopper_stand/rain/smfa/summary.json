@@ -1,0 +1,21 @@
+{
+  "n": 1,
+  "mean": 933.7653033733368,
+  "std": NaN,
+  "episodes": [
+    {
+      "task": "hopper_stand",
+      "condition": "smfa",
+      "mode": "single",
+      "kind": "rain",
+      "corruption_seed": 10943000,
+      "seed": 943000,
+      "return_": 933.7653033733368,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 74.39508389495313,
+      "adapter_seconds_mean": 0.10209373937360942,
+      "terminal": true
+    }
+  ]
+}

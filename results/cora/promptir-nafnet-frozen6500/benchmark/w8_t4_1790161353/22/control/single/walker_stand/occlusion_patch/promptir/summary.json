@@ -1,0 +1,21 @@
+{
+  "n": 1,
+  "mean": 978.6363329142332,
+  "std": NaN,
+  "episodes": [
+    {
+      "task": "walker_stand",
+      "condition": "promptir",
+      "mode": "single",
+      "kind": "occlusion_patch",
+      "corruption_seed": 10942000,
+      "seed": 942000,
+      "return_": 978.6363329142332,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 122.92065317835659,
+      "adapter_seconds_mean": 0.22352556815370916,
+      "terminal": true
+    }
+  ]
+}

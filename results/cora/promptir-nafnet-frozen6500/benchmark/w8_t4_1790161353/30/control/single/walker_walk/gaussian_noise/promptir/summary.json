@@ -1,0 +1,21 @@
+{
+  "n": 1,
+  "mean": 966.5416392609477,
+  "std": NaN,
+  "episodes": [
+    {
+      "task": "walker_walk",
+      "condition": "promptir",
+      "mode": "single",
+      "kind": "gaussian_noise",
+      "corruption_seed": 10940000,
+      "seed": 940000,
+      "return_": 966.5416392609477,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 126.00750658940524,
+      "adapter_seconds_mean": 0.22757099491916596,
+      "terminal": true
+    }
+  ]
+}

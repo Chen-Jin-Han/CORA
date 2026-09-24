@@ -1,0 +1,117 @@
+{
+  "n": 10,
+  "mean": 525.4440184612758,
+  "std": 128.20502070363466,
+  "episodes": [
+    {
+      "task": "walker_walk",
+      "condition": "aco",
+      "seed": 400000,
+      "return_": 438.7528857262805,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 26.933647298254073,
+      "adapter_seconds_mean": 0.01317646275088191,
+      "terminal": true
+    },
+    {
+      "task": "walker_walk",
+      "condition": "aco",
+      "seed": 400001,
+      "return_": 476.8539828788489,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 25.026703695766628,
+      "adapter_seconds_mean": 0.011818870700895786,
+      "terminal": true
+    },
+    {
+      "task": "walker_walk",
+      "condition": "aco",
+      "seed": 400002,
+      "return_": 421.83026092499495,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 24.931886891834438,
+      "adapter_seconds_mean": 0.012242964304983615,
+      "terminal": true
+    },
+    {
+      "task": "walker_walk",
+      "condition": "aco",
+      "seed": 400003,
+      "return_": 672.6853446029127,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 24.288593435660005,
+      "adapter_seconds_mean": 0.0116737044993788,
+      "terminal": true
+    },
+    {
+      "task": "walker_walk",
+      "condition": "aco",
+      "seed": 400004,
+      "return_": 659.1334997247905,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 24.935047053731978,
+      "adapter_seconds_mean": 0.012017261764034629,
+      "terminal": true
+    },
+    {
+      "task": "walker_walk",
+      "condition": "aco",
+      "seed": 400005,
+      "return_": 471.52735970541835,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 23.867171457968652,
+      "adapter_seconds_mean": 0.01191403717547655,
+      "terminal": true
+    },
+    {
+      "task": "walker_walk",
+      "condition": "aco",
+      "seed": 400006,
+      "return_": 643.934171507135,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 26.219136531464756,
+      "adapter_seconds_mean": 0.012561230009421706,
+      "terminal": true
+    },
+    {
+      "task": "walker_walk",
+      "condition": "aco",
+      "seed": 400007,
+      "return_": 509.35943645983934,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 25.318465222604573,
+      "adapter_seconds_mean": 0.01237612870708108,
+      "terminal": true
+    },
+    {
+      "task": "walker_walk",
+      "condition": "aco",
+      "seed": 400008,
+      "return_": 662.4735581241548,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 25.5680708354339,
+      "adapter_seconds_mean": 0.012172591798007488,
+      "terminal": true
+    },
+    {
+      "task": "walker_walk",
+      "condition": "aco",
+      "seed": 400009,
+      "return_": 297.88968495838344,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 24.53815740160644,
+      "adapter_seconds_mean": 0.011930097470059992,
+      "terminal": true
+    }
+  ]
+}

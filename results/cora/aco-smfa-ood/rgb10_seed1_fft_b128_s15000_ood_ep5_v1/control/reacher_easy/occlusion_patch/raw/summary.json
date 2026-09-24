@@ -1,0 +1,67 @@
+{
+  "n": 5,
+  "mean": 417.2,
+  "std": 491.77759200679327,
+  "episodes": [
+    {
+      "task": "reacher_easy",
+      "condition": "raw",
+      "kind": "occlusion_patch",
+      "seed": 408000,
+      "return_": 0.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 16.228045279625803,
+      "adapter_seconds_mean": 0.0,
+      "terminal": true
+    },
+    {
+      "task": "reacher_easy",
+      "condition": "raw",
+      "kind": "occlusion_patch",
+      "seed": 408001,
+      "return_": 177.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 14.745417558122426,
+      "adapter_seconds_mean": 0.0,
+      "terminal": true
+    },
+    {
+      "task": "reacher_easy",
+      "condition": "raw",
+      "kind": "occlusion_patch",
+      "seed": 408002,
+      "return_": 975.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 14.7971823788248,
+      "adapter_seconds_mean": 0.0,
+      "terminal": true
+    },
+    {
+      "task": "reacher_easy",
+      "condition": "raw",
+      "kind": "occlusion_patch",
+      "seed": 408003,
+      "return_": 9.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 14.711231947876513,
+      "adapter_seconds_mean": 0.0,
+      "terminal": true
+    },
+    {
+      "task": "reacher_easy",
+      "condition": "raw",
+      "kind": "occlusion_patch",
+      "seed": 408004,
+      "return_": 925.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 14.67750798072666,
+      "adapter_seconds_mean": 0.0,
+      "terminal": true
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "n": 5,
+  "mean": 448.8180096745491,
+  "std": 450.7496644083306,
+  "episodes": [
+    {
+      "task": "hopper_stand",
+      "condition": "smfa",
+      "mode": "single",
+      "kind": "occlusion_patch",
+      "corruption_seed": 10403000,
+      "seed": 403000,
+      "return_": 911.6189499497414,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 55.24745051097125,
+      "adapter_seconds_mean": 0.07799860593304038,
+      "terminal": true
+    },
+    {
+      "task": "hopper_stand",
+      "condition": "smfa",
+      "mode": "single",
+      "kind": "occlusion_patch",
+      "corruption_seed": 10403001,
+      "seed": 403001,
+      "return_": 921.1559098958969,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 49.978425005450845,
+      "adapter_seconds_mean": 0.07116528580710292,
+      "terminal": true
+    },
+    {
+      "task": "hopper_stand",
+      "condition": "smfa",
+      "mode": "single",
+      "kind": "occlusion_patch",
+      "corruption_seed": 10403002,
+      "seed": 403002,
+      "return_": 372.57322639226913,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 52.781576349399984,
+      "adapter_seconds_mean": 0.07556103374063969,
+      "terminal": true
+    },
+    {
+      "task": "hopper_stand",
+      "condition": "smfa",
+      "mode": "single",
+      "kind": "occlusion_patch",
+      "corruption_seed": 10403003,
+      "seed": 403003,
+      "return_": 38.741962134838104,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 54.155303582549095,
+      "adapter_seconds_mean": 0.07991755647584796,
+      "terminal": true
+    },
+    {
+      "task": "hopper_stand",
+      "condition": "smfa",
+      "mode": "single",
+      "kind": "occlusion_patch",
+      "corruption_seed": 10403004,
+      "seed": 403004,
+      "return_": 0.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 53.83442908432335,
+      "adapter_seconds_mean": 0.07903490981459618,
+      "terminal": true
+    }
+  ]
+}

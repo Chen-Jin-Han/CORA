@@ -1,0 +1,9 @@
+{
+  "complete": true,
+  "new_checkpoints": 3,
+  "steps": 15000,
+  "new_formal_episodes": 2250,
+  "image_pairs_per_variant": 130000,
+  "seed": 6,
+  "full_reused": true
+}

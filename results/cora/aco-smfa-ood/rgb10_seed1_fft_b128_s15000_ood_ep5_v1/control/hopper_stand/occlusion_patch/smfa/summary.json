@@ -1,0 +1,67 @@
+{
+  "n": 5,
+  "mean": 228.4248859643936,
+  "std": 244.64643303543062,
+  "episodes": [
+    {
+      "task": "hopper_stand",
+      "condition": "smfa",
+      "kind": "occlusion_patch",
+      "seed": 403000,
+      "return_": 475.2545331120491,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 57.266543687321246,
+      "adapter_seconds_mean": 0.08150680351443589,
+      "terminal": true
+    },
+    {
+      "task": "hopper_stand",
+      "condition": "smfa",
+      "kind": "occlusion_patch",
+      "seed": 403001,
+      "return_": 15.2135728597641,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 55.69047038722783,
+      "adapter_seconds_mean": 0.08203536607138813,
+      "terminal": true
+    },
+    {
+      "task": "hopper_stand",
+      "condition": "smfa",
+      "kind": "occlusion_patch",
+      "seed": 403002,
+      "return_": 501.71284741163254,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 55.79393136315048,
+      "adapter_seconds_mean": 0.08204961480293423,
+      "terminal": true
+    },
+    {
+      "task": "hopper_stand",
+      "condition": "smfa",
+      "kind": "occlusion_patch",
+      "seed": 403003,
+      "return_": 149.94347643852234,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 55.72102667205036,
+      "adapter_seconds_mean": 0.08186311994399875,
+      "terminal": true
+    },
+    {
+      "task": "hopper_stand",
+      "condition": "smfa",
+      "kind": "occlusion_patch",
+      "seed": 403004,
+      "return_": 0.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 55.15176561800763,
+      "adapter_seconds_mean": 0.08077932154107839,
+      "terminal": true
+    }
+  ]
+}

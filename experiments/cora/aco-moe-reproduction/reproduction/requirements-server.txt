@@ -1,0 +1,18 @@
+# Server lock for Python 3.10. PyTorch is installed separately from the cu121 index.
+numpy==1.26.4
+dm-control==1.0.14
+mujoco==2.3.7
+gym==0.26.2
+gymnasium==1.0.0
+ruamel.yaml==0.17.40
+moviepy==1.0.3
+opencv-python-headless==4.10.0.84
+matplotlib==3.9.4
+einops==0.8.0
+tensorboard==2.18.0
+h5py==3.12.1
+tqdm==4.67.1
+Pillow==10.4.0
+xmltodict==0.14.2
+cloudpickle==3.1.1
+protobuf==5.29.3

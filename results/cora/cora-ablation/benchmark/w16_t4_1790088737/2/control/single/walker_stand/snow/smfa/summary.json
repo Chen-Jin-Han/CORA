@@ -1,0 +1,21 @@
+{
+  "n": 1,
+  "mean": 977.8205157965422,
+  "std": NaN,
+  "episodes": [
+    {
+      "task": "walker_stand",
+      "condition": "smfa",
+      "mode": "single",
+      "kind": "snow",
+      "corruption_seed": 10942000,
+      "seed": 942000,
+      "return_": 977.8205157965422,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 94.26795334834605,
+      "adapter_seconds_mean": 0.15260734868235887,
+      "terminal": true
+    }
+  ]
+}

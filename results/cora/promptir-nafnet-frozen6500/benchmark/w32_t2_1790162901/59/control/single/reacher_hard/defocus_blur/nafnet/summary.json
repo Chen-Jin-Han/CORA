@@ -1,0 +1,21 @@
+{
+  "n": 1,
+  "mean": 21.0,
+  "std": NaN,
+  "episodes": [
+    {
+      "task": "reacher_hard",
+      "condition": "nafnet",
+      "mode": "single",
+      "kind": "defocus_blur",
+      "corruption_seed": 10949000,
+      "seed": 949000,
+      "return_": 21.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 77.17791371047497,
+      "adapter_seconds_mean": 0.10684748351201415,
+      "terminal": true
+    }
+  ]
+}

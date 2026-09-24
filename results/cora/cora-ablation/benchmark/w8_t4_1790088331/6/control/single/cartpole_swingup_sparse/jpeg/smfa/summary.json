@@ -1,0 +1,21 @@
+{
+  "n": 1,
+  "mean": 57.0,
+  "std": NaN,
+  "episodes": [
+    {
+      "task": "cartpole_swingup_sparse",
+      "condition": "smfa",
+      "mode": "single",
+      "kind": "jpeg",
+      "corruption_seed": 10946000,
+      "seed": 946000,
+      "return_": 57.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 42.632812386378646,
+      "adapter_seconds_mean": 0.05269307133555412,
+      "terminal": true
+    }
+  ]
+}

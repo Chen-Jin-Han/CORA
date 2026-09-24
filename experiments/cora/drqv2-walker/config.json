@@ -1,0 +1,16 @@
+{
+  "run": "walker_walk_seed0_b128_f500000_v1",
+  "data_root": "/data1/CST/CORA/drqv2-walker",
+  "task": "walker_walk", "seed": 0, "frames": 500000,
+  "image_size": 64, "frame_stack": 3, "action_repeat": 2,
+  "batch_size": 128, "lr": 0.0001, "discount": 0.99,
+  "nstep": 1, "seed_frames": 4000, "update_every_steps": 2,
+  "hidden_dim": 1024, "feature_dim": 50, "critic_target_tau": 0.01,
+  "stddev_schedule": "linear(1.0,0.1,100000)", "stddev_clip": 0.3,
+  "eval_every_frames": 50000, "eval_episodes": 5,
+  "acceptance_episodes": 10, "acceptance_threshold": 900,
+  "validation_seed": 700000, "acceptance_seed": 800000,
+  "torch_threads": 4, "gpu_poll_seconds": 30,
+  "gpu_max_memory_mib": 1024, "gpu_max_utilization": 5,
+  "gpu_idle_checks": 3
+}

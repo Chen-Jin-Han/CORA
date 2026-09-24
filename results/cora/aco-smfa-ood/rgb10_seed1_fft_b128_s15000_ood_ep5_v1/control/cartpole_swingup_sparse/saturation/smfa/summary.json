@@ -1,0 +1,67 @@
+{
+  "n": 5,
+  "mean": 717.6,
+  "std": 53.25223000025445,
+  "episodes": [
+    {
+      "task": "cartpole_swingup_sparse",
+      "condition": "smfa",
+      "kind": "saturation",
+      "seed": 406000,
+      "return_": 747.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 57.13813145598397,
+      "adapter_seconds_mean": 0.08187545180786401,
+      "terminal": true
+    },
+    {
+      "task": "cartpole_swingup_sparse",
+      "condition": "smfa",
+      "kind": "saturation",
+      "seed": 406001,
+      "return_": 764.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 56.14005051413551,
+      "adapter_seconds_mean": 0.08264172022975981,
+      "terminal": true
+    },
+    {
+      "task": "cartpole_swingup_sparse",
+      "condition": "smfa",
+      "kind": "saturation",
+      "seed": 406002,
+      "return_": 723.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 56.34035189123824,
+      "adapter_seconds_mean": 0.08305017929896712,
+      "terminal": true
+    },
+    {
+      "task": "cartpole_swingup_sparse",
+      "condition": "smfa",
+      "kind": "saturation",
+      "seed": 406003,
+      "return_": 727.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 58.24070367496461,
+      "adapter_seconds_mean": 0.08665079635567963,
+      "terminal": true
+    },
+    {
+      "task": "cartpole_swingup_sparse",
+      "condition": "smfa",
+      "kind": "saturation",
+      "seed": 406004,
+      "return_": 627.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 57.52663282910362,
+      "adapter_seconds_mean": 0.0861990534355864,
+      "terminal": true
+    }
+  ]
+}

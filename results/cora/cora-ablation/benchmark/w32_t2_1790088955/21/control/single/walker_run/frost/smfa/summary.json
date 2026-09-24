@@ -1,0 +1,21 @@
+{
+  "n": 1,
+  "mean": 627.5372479185462,
+  "std": NaN,
+  "episodes": [
+    {
+      "task": "walker_run",
+      "condition": "smfa",
+      "mode": "single",
+      "kind": "frost",
+      "corruption_seed": 10941000,
+      "seed": 941000,
+      "return_": 627.5372479185462,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 66.6043906006962,
+      "adapter_seconds_mean": 0.08963523797877133,
+      "terminal": true
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "n": 1,
+  "mean": 4.0,
+  "std": NaN,
+  "episodes": [
+    {
+      "task": "finger_turn_hard",
+      "condition": "smfa",
+      "mode": "single",
+      "kind": "shot_noise",
+      "corruption_seed": 10945000,
+      "seed": 945000,
+      "return_": 4.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 44.995273891836405,
+      "adapter_seconds_mean": 0.05909852115623653,
+      "terminal": true
+    }
+  ]
+}

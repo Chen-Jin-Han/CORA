@@ -1,0 +1,117 @@
+{
+  "n": 10,
+  "mean": 288.21331347823144,
+  "std": 122.69206972019691,
+  "episodes": [
+    {
+      "task": "hopper_stand",
+      "condition": "raw",
+      "seed": 403000,
+      "return_": 227.75484430789948,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 19.422605604864657,
+      "adapter_seconds_mean": 0.0,
+      "terminal": true
+    },
+    {
+      "task": "hopper_stand",
+      "condition": "raw",
+      "seed": 403001,
+      "return_": 420.2039769887924,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 16.402761147823185,
+      "adapter_seconds_mean": 0.0,
+      "terminal": true
+    },
+    {
+      "task": "hopper_stand",
+      "condition": "raw",
+      "seed": 403002,
+      "return_": 256.88990569114685,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 16.293944749049842,
+      "adapter_seconds_mean": 0.0,
+      "terminal": true
+    },
+    {
+      "task": "hopper_stand",
+      "condition": "raw",
+      "seed": 403003,
+      "return_": 343.07842177152634,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 17.078836949076504,
+      "adapter_seconds_mean": 0.0,
+      "terminal": true
+    },
+    {
+      "task": "hopper_stand",
+      "condition": "raw",
+      "seed": 403004,
+      "return_": 0.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 17.87197933671996,
+      "adapter_seconds_mean": 0.0,
+      "terminal": true
+    },
+    {
+      "task": "hopper_stand",
+      "condition": "raw",
+      "seed": 403005,
+      "return_": 401.48379039764404,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 17.079778405837715,
+      "adapter_seconds_mean": 0.0,
+      "terminal": true
+    },
+    {
+      "task": "hopper_stand",
+      "condition": "raw",
+      "seed": 403006,
+      "return_": 247.0662044286728,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 17.480582083109766,
+      "adapter_seconds_mean": 0.0,
+      "terminal": true
+    },
+    {
+      "task": "hopper_stand",
+      "condition": "raw",
+      "seed": 403007,
+      "return_": 340.0916944742203,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 17.509059607051313,
+      "adapter_seconds_mean": 0.0,
+      "terminal": true
+    },
+    {
+      "task": "hopper_stand",
+      "condition": "raw",
+      "seed": 403008,
+      "return_": 260.57112312316895,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 18.0044486252591,
+      "adapter_seconds_mean": 0.0,
+      "terminal": true
+    },
+    {
+      "task": "hopper_stand",
+      "condition": "raw",
+      "seed": 403009,
+      "return_": 384.99317359924316,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 17.70331084681675,
+      "adapter_seconds_mean": 0.0,
+      "terminal": true
+    }
+  ]
+}

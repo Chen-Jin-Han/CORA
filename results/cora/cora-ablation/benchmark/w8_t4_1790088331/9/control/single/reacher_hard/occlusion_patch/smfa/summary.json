@@ -1,0 +1,21 @@
+{
+  "n": 1,
+  "mean": 41.0,
+  "std": NaN,
+  "episodes": [
+    {
+      "task": "reacher_hard",
+      "condition": "smfa",
+      "mode": "single",
+      "kind": "occlusion_patch",
+      "corruption_seed": 10949000,
+      "seed": 949000,
+      "return_": 41.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 38.093161531724036,
+      "adapter_seconds_mean": 0.05090064923465252,
+      "terminal": true
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "n": 5,
+  "mean": 945.3695991657675,
+  "std": 50.222306783501125,
+  "episodes": [
+    {
+      "task": "walker_stand",
+      "condition": "promptir",
+      "mode": "single",
+      "kind": "occlusion_patch",
+      "corruption_seed": 10402000,
+      "seed": 402000,
+      "return_": 947.2613896131516,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 616.5756240189075,
+      "adapter_seconds_mean": 1.1544759957846253,
+      "terminal": true
+    },
+    {
+      "task": "walker_stand",
+      "condition": "promptir",
+      "mode": "single",
+      "kind": "occlusion_patch",
+      "corruption_seed": 10402001,
+      "seed": 402001,
+      "return_": 983.7537259496748,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 587.3398935375735,
+      "adapter_seconds_mean": 1.0985128639526665,
+      "terminal": true
+    },
+    {
+      "task": "walker_stand",
+      "condition": "promptir",
+      "mode": "single",
+      "kind": "occlusion_patch",
+      "corruption_seed": 10402002,
+      "seed": 402002,
+      "return_": 983.2315286397934,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 604.7906173216179,
+      "adapter_seconds_mean": 1.1326730323489755,
+      "terminal": true
+    },
+    {
+      "task": "walker_stand",
+      "condition": "promptir",
+      "mode": "single",
+      "kind": "occlusion_patch",
+      "corruption_seed": 10402003,
+      "seed": 402003,
+      "return_": 951.720457226038,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 603.5881612244993,
+      "adapter_seconds_mean": 1.1327384152840823,
+      "terminal": true
+    },
+    {
+      "task": "walker_stand",
+      "condition": "promptir",
+      "mode": "single",
+      "kind": "occlusion_patch",
+      "corruption_seed": 10402004,
+      "seed": 402004,
+      "return_": 860.8808944001794,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 592.255038999021,
+      "adapter_seconds_mean": 1.1103149720560759,
+      "terminal": true
+    }
+  ]
+}

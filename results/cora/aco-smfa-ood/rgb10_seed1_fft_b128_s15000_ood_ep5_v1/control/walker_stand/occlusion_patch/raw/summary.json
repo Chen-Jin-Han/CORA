@@ -1,0 +1,67 @@
+{
+  "n": 5,
+  "mean": 932.1629017218947,
+  "std": 60.31427378597819,
+  "episodes": [
+    {
+      "task": "walker_stand",
+      "condition": "raw",
+      "kind": "occlusion_patch",
+      "seed": 402000,
+      "return_": 962.630288824439,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 16.73693030513823,
+      "adapter_seconds_mean": 0.0,
+      "terminal": true
+    },
+    {
+      "task": "walker_stand",
+      "condition": "raw",
+      "kind": "occlusion_patch",
+      "seed": 402001,
+      "return_": 968.716245368123,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 14.561818653251976,
+      "adapter_seconds_mean": 0.0,
+      "terminal": true
+    },
+    {
+      "task": "walker_stand",
+      "condition": "raw",
+      "kind": "occlusion_patch",
+      "seed": 402002,
+      "return_": 973.5234591811895,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 14.923320124391466,
+      "adapter_seconds_mean": 0.0,
+      "terminal": true
+    },
+    {
+      "task": "walker_stand",
+      "condition": "raw",
+      "kind": "occlusion_patch",
+      "seed": 402003,
+      "return_": 829.4805554896593,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 14.792544098105282,
+      "adapter_seconds_mean": 0.0,
+      "terminal": true
+    },
+    {
+      "task": "walker_stand",
+      "condition": "raw",
+      "kind": "occlusion_patch",
+      "seed": 402004,
+      "return_": 926.4639597460628,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 15.212552212644368,
+      "adapter_seconds_mean": 0.0,
+      "terminal": true
+    }
+  ]
+}

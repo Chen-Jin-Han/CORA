@@ -1,0 +1,17 @@
+{
+  "clean": {
+    "n": 1,
+    "mean": 0.0,
+    "std": null
+  },
+  "oracle_fg": {
+    "n": 1,
+    "mean": 0.0,
+    "std": null
+  },
+  "raw": {
+    "n": 1,
+    "mean": 0.0,
+    "std": null
+  }
+}

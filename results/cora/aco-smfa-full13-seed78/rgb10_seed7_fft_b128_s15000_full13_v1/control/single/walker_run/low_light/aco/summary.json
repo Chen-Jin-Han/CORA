@@ -1,0 +1,77 @@
+{
+  "n": 5,
+  "mean": 21.38321035769768,
+  "std": 11.681233669573075,
+  "episodes": [
+    {
+      "task": "walker_run",
+      "condition": "aco",
+      "mode": "single",
+      "kind": "low_light",
+      "corruption_seed": 10401000,
+      "seed": 401000,
+      "return_": 10.676486163632944,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 25.604094387963414,
+      "adapter_seconds_mean": 0.012074765348806978,
+      "terminal": true
+    },
+    {
+      "task": "walker_run",
+      "condition": "aco",
+      "mode": "single",
+      "kind": "low_light",
+      "corruption_seed": 10401001,
+      "seed": 401001,
+      "return_": 38.69118819758296,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 23.06199803762138,
+      "adapter_seconds_mean": 0.011621441347524524,
+      "terminal": true
+    },
+    {
+      "task": "walker_run",
+      "condition": "aco",
+      "mode": "single",
+      "kind": "low_light",
+      "corruption_seed": 10401002,
+      "seed": 401002,
+      "return_": 10.353147056885064,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 22.926248426549137,
+      "adapter_seconds_mean": 0.0110907416138798,
+      "terminal": true
+    },
+    {
+      "task": "walker_run",
+      "condition": "aco",
+      "mode": "single",
+      "kind": "low_light",
+      "corruption_seed": 10401003,
+      "seed": 401003,
+      "return_": 23.337455235421658,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 23.15096622798592,
+      "adapter_seconds_mean": 0.011440471615642309,
+      "terminal": true
+    },
+    {
+      "task": "walker_run",
+      "condition": "aco",
+      "mode": "single",
+      "kind": "low_light",
+      "corruption_seed": 10401004,
+      "seed": 401004,
+      "return_": 23.857775134965777,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 23.545574477873743,
+      "adapter_seconds_mean": 0.01195326048322022,
+      "terminal": true
+    }
+  ]
+}

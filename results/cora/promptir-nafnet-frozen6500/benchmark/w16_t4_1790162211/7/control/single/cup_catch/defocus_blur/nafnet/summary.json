@@ -1,0 +1,21 @@
+{
+  "n": 1,
+  "mean": 964.0,
+  "std": NaN,
+  "episodes": [
+    {
+      "task": "cup_catch",
+      "condition": "nafnet",
+      "mode": "single",
+      "kind": "defocus_blur",
+      "corruption_seed": 10947000,
+      "seed": 947000,
+      "return_": 964.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 134.97842216584831,
+      "adapter_seconds_mean": 0.24394417979754507,
+      "terminal": true
+    }
+  ]
+}

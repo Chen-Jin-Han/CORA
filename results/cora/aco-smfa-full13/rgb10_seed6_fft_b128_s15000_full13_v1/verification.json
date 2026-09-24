@@ -1,0 +1,9 @@
+{
+  "valid": true,
+  "unique_episodes": 2300,
+  "markov": 300,
+  "single": 1950,
+  "clean": 50,
+  "checkpoint_steps": 15000,
+  "image_pairs_per_model": 130000
+}

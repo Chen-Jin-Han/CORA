@@ -1,0 +1,11 @@
+{
+  "dreamerv3_commit": "e3f02248693a79dc8b0ebd62c93683888ddaccfe",
+  "smfanet_commit": "a05e0bb554bbbb80cd27d8fd2b78d4228c657170",
+  "aco": "Local modified reproduction, not author checkpoint",
+  "sources": {
+    "aco_moe/moe_unet.py": "d4fa675536fed3a07cd3ebcb8c301fbd107ae6d4a38094ec40f24f8cf9883afc",
+    "envs/visual_degradations.py": "efb23fa238e809522178ce33fe24e4f084dcf0008f69f95f8e00150eb97d1d0b",
+    "envs/visual_degraded_control.py": "0f8b38fcfc79835a0c9e1645bc87e2aefb7d34f390db9b03fc8eb5ab6a6e5001",
+    "SMFANet_arch.py": "d08fa78002cf6515bb39badd7e19a177a4f92f3732cb0e1d1b6bcb677e26147f"
+  }
+}

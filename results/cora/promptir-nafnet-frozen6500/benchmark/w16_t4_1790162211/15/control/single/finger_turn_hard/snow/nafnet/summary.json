@@ -1,0 +1,21 @@
+{
+  "n": 1,
+  "mean": 965.0,
+  "std": NaN,
+  "episodes": [
+    {
+      "task": "finger_turn_hard",
+      "condition": "nafnet",
+      "mode": "single",
+      "kind": "snow",
+      "corruption_seed": 10945000,
+      "seed": 945000,
+      "return_": 965.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 140.22418768052012,
+      "adapter_seconds_mean": 0.24682460316456856,
+      "terminal": true
+    }
+  ]
+}

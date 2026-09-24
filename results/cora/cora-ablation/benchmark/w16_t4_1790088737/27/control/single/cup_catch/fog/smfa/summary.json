@@ -1,0 +1,21 @@
+{
+  "n": 1,
+  "mean": 965.0,
+  "std": NaN,
+  "episodes": [
+    {
+      "task": "cup_catch",
+      "condition": "smfa",
+      "mode": "single",
+      "kind": "fog",
+      "corruption_seed": 10947000,
+      "seed": 947000,
+      "return_": 965.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 62.42631696444005,
+      "adapter_seconds_mean": 0.09513990708068013,
+      "terminal": true
+    }
+  ]
+}

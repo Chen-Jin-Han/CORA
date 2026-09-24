@@ -1,0 +1,17 @@
+{
+  "complete": true,
+  "models": [
+    "promptir",
+    "nafnet"
+  ],
+  "seed": 6,
+  "checkpoint_steps": {
+    "promptir": 6500,
+    "nafnet": 15000
+  },
+  "image_pairs_each": 130000,
+  "formal_control_episodes": 1500,
+  "markov_frame_files": 20,
+  "markov_frame_positions": 50000,
+  "baseline_full_reused": true
+}

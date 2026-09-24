@@ -1,0 +1,37 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pth
+*.pt
+*.h5
+*.hdf5
+*.tar.gz
+*.zip
+*.png
+*.jpg
+*.jpeg
+*.mp4
+*.gif
+*.npz
+*.npy
+
+# Local data and outputs.
+/data/
+/checkpoints/
+/logdir/
+/logs/
+/runs/
+/wandb/
+.DS_Store
+
+# Editor / IDE.
+.vscode/
+.idea/
+.ipynb_checkpoints/
+
+# Python venv.
+.venv/
+venv/
+env/
+git_commit.sh

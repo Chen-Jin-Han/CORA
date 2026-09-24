@@ -1,0 +1,77 @@
+{
+  "n": 5,
+  "mean": 532.8857405704912,
+  "std": 39.3567660678338,
+  "episodes": [
+    {
+      "task": "quadruped_run",
+      "condition": "promptir",
+      "mode": "single",
+      "kind": "occlusion_patch",
+      "corruption_seed": 10404000,
+      "seed": 404000,
+      "return_": 561.9967048168182,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 637.1335362754762,
+      "adapter_seconds_mean": 1.196580608168617,
+      "terminal": true
+    },
+    {
+      "task": "quadruped_run",
+      "condition": "promptir",
+      "mode": "single",
+      "kind": "occlusion_patch",
+      "corruption_seed": 10404001,
+      "seed": 404001,
+      "return_": 516.6848628250882,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 675.5874104006216,
+      "adapter_seconds_mean": 1.2739293247889727,
+      "terminal": true
+    },
+    {
+      "task": "quadruped_run",
+      "condition": "promptir",
+      "mode": "single",
+      "kind": "occlusion_patch",
+      "corruption_seed": 10404002,
+      "seed": 404002,
+      "return_": 542.2185611277819,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 683.9128577271476,
+      "adapter_seconds_mean": 1.2897238643374294,
+      "terminal": true
+    },
+    {
+      "task": "quadruped_run",
+      "condition": "promptir",
+      "mode": "single",
+      "kind": "occlusion_patch",
+      "corruption_seed": 10404003,
+      "seed": 404003,
+      "return_": 473.0229879950639,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 667.9102676454931,
+      "adapter_seconds_mean": 1.2589943163134159,
+      "terminal": true
+    },
+    {
+      "task": "quadruped_run",
+      "condition": "promptir",
+      "mode": "single",
+      "kind": "occlusion_patch",
+      "corruption_seed": 10404004,
+      "seed": 404004,
+      "return_": 570.5055860877037,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 662.4265656182542,
+      "adapter_seconds_mean": 1.2502979294192047,
+      "terminal": true
+    }
+  ]
+}

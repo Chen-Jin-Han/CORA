@@ -1,0 +1,21 @@
+{
+  "n": 1,
+  "mean": 963.1970095932484,
+  "std": NaN,
+  "episodes": [
+    {
+      "task": "walker_walk",
+      "condition": "promptir",
+      "mode": "single",
+      "kind": "defocus_blur",
+      "corruption_seed": 10940000,
+      "seed": 940000,
+      "return_": 963.1970095932484,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 410.5698698973283,
+      "adapter_seconds_mean": 0.7629185338281095,
+      "terminal": true
+    }
+  ]
+}

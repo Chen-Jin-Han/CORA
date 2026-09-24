@@ -1,0 +1,77 @@
+{
+  "n": 5,
+  "mean": 972.127782151103,
+  "std": 12.340916302571276,
+  "episodes": [
+    {
+      "task": "walker_stand",
+      "condition": "smfa",
+      "mode": "single",
+      "kind": "gaussian_noise",
+      "corruption_seed": 10402000,
+      "seed": 402000,
+      "return_": 975.446682497859,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 58.410833140835166,
+      "adapter_seconds_mean": 0.08236020771600307,
+      "terminal": true
+    },
+    {
+      "task": "walker_stand",
+      "condition": "smfa",
+      "mode": "single",
+      "kind": "gaussian_noise",
+      "corruption_seed": 10402001,
+      "seed": 402001,
+      "return_": 984.2024747692049,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 54.33447739854455,
+      "adapter_seconds_mean": 0.07930384177342058,
+      "terminal": true
+    },
+    {
+      "task": "walker_stand",
+      "condition": "smfa",
+      "mode": "single",
+      "kind": "gaussian_noise",
+      "corruption_seed": 10402002,
+      "seed": 402002,
+      "return_": 967.2962515354156,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 52.58713287208229,
+      "adapter_seconds_mean": 0.076247987549752,
+      "terminal": true
+    },
+    {
+      "task": "walker_stand",
+      "condition": "smfa",
+      "mode": "single",
+      "kind": "gaussian_noise",
+      "corruption_seed": 10402003,
+      "seed": 402003,
+      "return_": 980.5079604908824,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 53.35591151379049,
+      "adapter_seconds_mean": 0.07752949205599725,
+      "terminal": true
+    },
+    {
+      "task": "walker_stand",
+      "condition": "smfa",
+      "mode": "single",
+      "kind": "gaussian_noise",
+      "corruption_seed": 10402004,
+      "seed": 402004,
+      "return_": 953.1855414621532,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 53.73629741743207,
+      "adapter_seconds_mean": 0.07876719836518169,
+      "terminal": true
+    }
+  ]
+}

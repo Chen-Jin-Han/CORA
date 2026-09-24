@@ -1,0 +1,67 @@
+{
+  "n": 5,
+  "mean": 938.8,
+  "std": 35.031414473298106,
+  "episodes": [
+    {
+      "task": "cup_catch",
+      "condition": "raw",
+      "kind": "saturation",
+      "seed": 407000,
+      "return_": 923.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 16.708301722072065,
+      "adapter_seconds_mean": 0.0,
+      "terminal": true
+    },
+    {
+      "task": "cup_catch",
+      "condition": "raw",
+      "kind": "saturation",
+      "seed": 407001,
+      "return_": 959.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 14.844641807023436,
+      "adapter_seconds_mean": 0.0,
+      "terminal": true
+    },
+    {
+      "task": "cup_catch",
+      "condition": "raw",
+      "kind": "saturation",
+      "seed": 407002,
+      "return_": 896.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 14.157675487920642,
+      "adapter_seconds_mean": 0.0,
+      "terminal": true
+    },
+    {
+      "task": "cup_catch",
+      "condition": "raw",
+      "kind": "saturation",
+      "seed": 407003,
+      "return_": 987.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 15.36868132185191,
+      "adapter_seconds_mean": 0.0,
+      "terminal": true
+    },
+    {
+      "task": "cup_catch",
+      "condition": "raw",
+      "kind": "saturation",
+      "seed": 407004,
+      "return_": 929.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 15.07307342812419,
+      "adapter_seconds_mean": 0.0,
+      "terminal": true
+    }
+  ]
+}

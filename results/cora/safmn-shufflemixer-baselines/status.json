@@ -1,0 +1,8 @@
+{
+  "stage": "failed",
+  "pid": 1494818,
+  "time": 1790185063.4077506,
+  "active": [],
+  "prepare": [],
+  "error": "RuntimeError('Master interrupted')"
+}

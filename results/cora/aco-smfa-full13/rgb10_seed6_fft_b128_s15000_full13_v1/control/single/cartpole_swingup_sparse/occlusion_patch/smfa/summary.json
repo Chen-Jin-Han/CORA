@@ -1,0 +1,77 @@
+{
+  "n": 5,
+  "mean": 578.4,
+  "std": 324.5224183319236,
+  "episodes": [
+    {
+      "task": "cartpole_swingup_sparse",
+      "condition": "smfa",
+      "mode": "single",
+      "kind": "occlusion_patch",
+      "corruption_seed": 10406000,
+      "seed": 406000,
+      "return_": 833.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 55.54752775467932,
+      "adapter_seconds_mean": 0.07982417960837483,
+      "terminal": true
+    },
+    {
+      "task": "cartpole_swingup_sparse",
+      "condition": "smfa",
+      "mode": "single",
+      "kind": "occlusion_patch",
+      "corruption_seed": 10406001,
+      "seed": 406001,
+      "return_": 43.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 51.93602592870593,
+      "adapter_seconds_mean": 0.07665579547174275,
+      "terminal": true
+    },
+    {
+      "task": "cartpole_swingup_sparse",
+      "condition": "smfa",
+      "mode": "single",
+      "kind": "occlusion_patch",
+      "corruption_seed": 10406002,
+      "seed": 406002,
+      "return_": 626.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 52.673808545805514,
+      "adapter_seconds_mean": 0.07718058127164841,
+      "terminal": true
+    },
+    {
+      "task": "cartpole_swingup_sparse",
+      "condition": "smfa",
+      "mode": "single",
+      "kind": "occlusion_patch",
+      "corruption_seed": 10406003,
+      "seed": 406003,
+      "return_": 553.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 50.52281453553587,
+      "adapter_seconds_mean": 0.07373819902539253,
+      "terminal": true
+    },
+    {
+      "task": "cartpole_swingup_sparse",
+      "condition": "smfa",
+      "mode": "single",
+      "kind": "occlusion_patch",
+      "corruption_seed": 10406004,
+      "seed": 406004,
+      "return_": 837.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 56.402485901489854,
+      "adapter_seconds_mean": 0.08394500649534166,
+      "terminal": true
+    }
+  ]
+}

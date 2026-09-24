@@ -1,0 +1,67 @@
+{
+  "n": 5,
+  "mean": 367.8,
+  "std": 503.63399408697586,
+  "episodes": [
+    {
+      "task": "finger_turn_hard",
+      "condition": "raw",
+      "kind": "saturation",
+      "seed": 405000,
+      "return_": 0.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 16.153473002836108,
+      "adapter_seconds_mean": 0.0,
+      "terminal": true
+    },
+    {
+      "task": "finger_turn_hard",
+      "condition": "raw",
+      "kind": "saturation",
+      "seed": 405001,
+      "return_": 922.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 15.419980156701058,
+      "adapter_seconds_mean": 0.0,
+      "terminal": true
+    },
+    {
+      "task": "finger_turn_hard",
+      "condition": "raw",
+      "kind": "saturation",
+      "seed": 405002,
+      "return_": 0.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 14.988688538782299,
+      "adapter_seconds_mean": 0.0,
+      "terminal": true
+    },
+    {
+      "task": "finger_turn_hard",
+      "condition": "raw",
+      "kind": "saturation",
+      "seed": 405003,
+      "return_": 0.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 14.85256398236379,
+      "adapter_seconds_mean": 0.0,
+      "terminal": true
+    },
+    {
+      "task": "finger_turn_hard",
+      "condition": "raw",
+      "kind": "saturation",
+      "seed": 405004,
+      "return_": 917.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 15.057903170119971,
+      "adapter_seconds_mean": 0.0,
+      "terminal": true
+    }
+  ]
+}

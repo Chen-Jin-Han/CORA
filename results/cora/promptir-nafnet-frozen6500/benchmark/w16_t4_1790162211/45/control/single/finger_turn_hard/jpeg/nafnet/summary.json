@@ -1,0 +1,21 @@
+{
+  "n": 1,
+  "mean": 978.0,
+  "std": NaN,
+  "episodes": [
+    {
+      "task": "finger_turn_hard",
+      "condition": "nafnet",
+      "mode": "single",
+      "kind": "jpeg",
+      "corruption_seed": 10945000,
+      "seed": 945000,
+      "return_": 978.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 94.81340316776186,
+      "adapter_seconds_mean": 0.16005215943977236,
+      "terminal": true
+    }
+  ]
+}

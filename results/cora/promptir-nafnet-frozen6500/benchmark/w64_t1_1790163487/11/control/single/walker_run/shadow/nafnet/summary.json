@@ -1,0 +1,21 @@
+{
+  "n": 1,
+  "mean": 694.6428946740925,
+  "std": NaN,
+  "episodes": [
+    {
+      "task": "walker_run",
+      "condition": "nafnet",
+      "mode": "single",
+      "kind": "shadow",
+      "corruption_seed": 10941000,
+      "seed": 941000,
+      "return_": 694.6428946740925,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 72.04043107945472,
+      "adapter_seconds_mean": 0.08046482857689262,
+      "terminal": true
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "n": 5,
+  "mean": 354.30046108895914,
+  "std": 349.883140905289,
+  "episodes": [
+    {
+      "task": "walker_walk",
+      "condition": "smfa",
+      "mode": "single",
+      "kind": "occlusion_patch",
+      "corruption_seed": 10400000,
+      "seed": 400000,
+      "return_": 62.9000437380746,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 65.23592496756464,
+      "adapter_seconds_mean": 0.08736034750565887,
+      "terminal": true
+    },
+    {
+      "task": "walker_walk",
+      "condition": "smfa",
+      "mode": "single",
+      "kind": "occlusion_patch",
+      "corruption_seed": 10400001,
+      "seed": 400001,
+      "return_": 617.7124306820333,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 54.85682308021933,
+      "adapter_seconds_mean": 0.07120493763126433,
+      "terminal": true
+    },
+    {
+      "task": "walker_walk",
+      "condition": "smfa",
+      "mode": "single",
+      "kind": "occlusion_patch",
+      "corruption_seed": 10400002,
+      "seed": 400002,
+      "return_": 819.90642388165,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 57.540528401732445,
+      "adapter_seconds_mean": 0.07588138270750641,
+      "terminal": true
+    },
+    {
+      "task": "walker_walk",
+      "condition": "smfa",
+      "mode": "single",
+      "kind": "occlusion_patch",
+      "corruption_seed": 10400003,
+      "seed": 400003,
+      "return_": 242.33112251665443,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 58.86141613218933,
+      "adapter_seconds_mean": 0.07867572659440339,
+      "terminal": true
+    },
+    {
+      "task": "walker_walk",
+      "condition": "smfa",
+      "mode": "single",
+      "kind": "occlusion_patch",
+      "corruption_seed": 10400004,
+      "seed": 400004,
+      "return_": 28.652284626383334,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 54.06701256893575,
+      "adapter_seconds_mean": 0.06937740316614509,
+      "terminal": true
+    }
+  ]
+}

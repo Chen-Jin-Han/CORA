@@ -1,0 +1,67 @@
+{
+  "n": 5,
+  "mean": 910.6,
+  "std": 65.93784952513997,
+  "episodes": [
+    {
+      "task": "finger_turn_hard",
+      "condition": "raw",
+      "kind": "frost",
+      "seed": 405000,
+      "return_": 982.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 16.763206503819674,
+      "adapter_seconds_mean": 0.0,
+      "terminal": true
+    },
+    {
+      "task": "finger_turn_hard",
+      "condition": "raw",
+      "kind": "frost",
+      "seed": 405001,
+      "return_": 936.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 15.264279399998486,
+      "adapter_seconds_mean": 0.0,
+      "terminal": true
+    },
+    {
+      "task": "finger_turn_hard",
+      "condition": "raw",
+      "kind": "frost",
+      "seed": 405002,
+      "return_": 953.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 15.15334501164034,
+      "adapter_seconds_mean": 0.0,
+      "terminal": true
+    },
+    {
+      "task": "finger_turn_hard",
+      "condition": "raw",
+      "kind": "frost",
+      "seed": 405003,
+      "return_": 832.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 14.903770174831152,
+      "adapter_seconds_mean": 0.0,
+      "terminal": true
+    },
+    {
+      "task": "finger_turn_hard",
+      "condition": "raw",
+      "kind": "frost",
+      "seed": 405004,
+      "return_": 850.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 15.32680332288146,
+      "adapter_seconds_mean": 0.0,
+      "terminal": true
+    }
+  ]
+}

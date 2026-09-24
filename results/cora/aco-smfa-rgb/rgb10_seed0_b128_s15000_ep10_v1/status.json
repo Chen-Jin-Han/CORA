@@ -1,0 +1,7 @@
+{
+  "pid": 3621123,
+  "time": 1789780375.2303212,
+  "stage": "complete",
+  "control_episodes": 400,
+  "train_seeds_per_model": 1
+}

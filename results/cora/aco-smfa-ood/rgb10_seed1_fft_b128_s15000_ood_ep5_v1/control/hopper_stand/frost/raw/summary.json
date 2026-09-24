@@ -1,0 +1,67 @@
+{
+  "n": 5,
+  "mean": 701.5018891453743,
+  "std": 393.96679860343323,
+  "episodes": [
+    {
+      "task": "hopper_stand",
+      "condition": "raw",
+      "kind": "frost",
+      "seed": 403000,
+      "return_": 894.0225851535797,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 16.719434219878167,
+      "adapter_seconds_mean": 0.0,
+      "terminal": true
+    },
+    {
+      "task": "hopper_stand",
+      "condition": "raw",
+      "kind": "frost",
+      "seed": 403001,
+      "return_": 897.388067305088,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 14.730839788913727,
+      "adapter_seconds_mean": 0.0,
+      "terminal": true
+    },
+    {
+      "task": "hopper_stand",
+      "condition": "raw",
+      "kind": "frost",
+      "seed": 403002,
+      "return_": 811.7644328474998,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 15.093547705095261,
+      "adapter_seconds_mean": 0.0,
+      "terminal": true
+    },
+    {
+      "task": "hopper_stand",
+      "condition": "raw",
+      "kind": "frost",
+      "seed": 403003,
+      "return_": 904.3343604207039,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 14.63096616929397,
+      "adapter_seconds_mean": 0.0,
+      "terminal": true
+    },
+    {
+      "task": "hopper_stand",
+      "condition": "raw",
+      "kind": "frost",
+      "seed": 403004,
+      "return_": 0.0,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 13.872085769660771,
+      "adapter_seconds_mean": 0.0,
+      "terminal": true
+    }
+  ]
+}

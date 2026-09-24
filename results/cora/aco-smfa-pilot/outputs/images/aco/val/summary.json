@@ -1,0 +1,14 @@
+{
+  "model": "aco",
+  "step": 10000,
+  "params": 4884961,
+  "n": 6300,
+  "psnr": 28.90895077055854,
+  "raw_psnr": 20.45108751383639,
+  "ssim": 0.8706248615469251,
+  "roi_l1": 0.06250294436375418,
+  "iou": 0.9453110145907628,
+  "latency_ms_median": 4.638664191588759,
+  "latency_ms_p95": 24.997398210689422,
+  "metric_protocol": "RGB [0,1], full frame no crop; PSNR per image; skimage SSIM; supplement to control returns"
+}

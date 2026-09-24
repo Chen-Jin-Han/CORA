@@ -1,0 +1,77 @@
+{
+  "n": 5,
+  "mean": 275.4194838769734,
+  "std": 65.01468890667125,
+  "episodes": [
+    {
+      "task": "walker_run",
+      "condition": "smfa",
+      "mode": "single",
+      "kind": "occlusion_patch",
+      "corruption_seed": 10401000,
+      "seed": 401000,
+      "return_": 218.2741730734706,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 54.70445755124092,
+      "adapter_seconds_mean": 0.0767008219435811,
+      "terminal": true
+    },
+    {
+      "task": "walker_run",
+      "condition": "smfa",
+      "mode": "single",
+      "kind": "occlusion_patch",
+      "corruption_seed": 10401001,
+      "seed": 401001,
+      "return_": 278.4087613085285,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 51.24878579750657,
+      "adapter_seconds_mean": 0.07333195961080491,
+      "terminal": true
+    },
+    {
+      "task": "walker_run",
+      "condition": "smfa",
+      "mode": "single",
+      "kind": "occlusion_patch",
+      "corruption_seed": 10401002,
+      "seed": 401002,
+      "return_": 245.72544790804386,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 50.34102618135512,
+      "adapter_seconds_mean": 0.07157209505513311,
+      "terminal": true
+    },
+    {
+      "task": "walker_run",
+      "condition": "smfa",
+      "mode": "single",
+      "kind": "occlusion_patch",
+      "corruption_seed": 10401003,
+      "seed": 401003,
+      "return_": 249.38878320530057,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 50.55660696141422,
+      "adapter_seconds_mean": 0.071966536141932,
+      "terminal": true
+    },
+    {
+      "task": "walker_run",
+      "condition": "smfa",
+      "mode": "single",
+      "kind": "occlusion_patch",
+      "corruption_seed": 10401004,
+      "seed": 401004,
+      "return_": 385.30025388952345,
+      "decisions": 500,
+      "action_repeat": 2,
+      "seconds": 54.76993604749441,
+      "adapter_seconds_mean": 0.08040996418707072,
+      "terminal": true
+    }
+  ]
+}
